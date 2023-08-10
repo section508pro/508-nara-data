@@ -1,0 +1,133 @@
+[
+  {
+    "id": "duplicate-id-active",
+    "title": "`[id]` attributes on active, focusable elements are not unique",
+    "description": "All focusable elements must have a unique `id` to ensure that they're visible to assistive technologies. [Learn more](https://web.dev/duplicate-id-active/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-7-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,2,NAV,1,UL,1,LI,0,A",
+            "selector": "nav#main-nav > ul#main-menu-links > li.menu-860 > a#veterans",
+            "boundingRect": {
+              "top": 116,
+              "bottom": 156,
+              "left": 270,
+              "right": 540,
+              "width": 270,
+              "height": 41
+            },
+            "snippet": "<a href=\"/veterans\" id=\"veterans\" class=\"veterans\">",
+            "nodeLabel": "VETERANS' SERVICE RECORDS",
+            "explanation": "Fix any of the following:\n  Document has active elements with the same id attribute: veterans"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-71-A",
+                  "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,4,DIV,0,DIV,1,DIV,1,DIV,1,DIV,0,SECTION,87,P,1,A",
+                  "selector": "div.region > section#block-system-main > p > a#veterans",
+                  "boundingRect": {
+                    "top": 6117,
+                    "bottom": 6137,
+                    "left": 950,
+                    "right": 950,
+                    "width": 0,
+                    "height": 20
+                  },
+                  "snippet": "<a id=\"veterans\" name=\"veterans\">",
+                  "nodeLabel": "div.region > section#block-system-main > p > a#veterans"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.parsing",
+          "wcag2a",
+          "wcag411"
+        ]
+      }
+    },
+    "errorCount": 1
+  },
+  {
+    "id": "link-name",
+    "title": "Links do not have a discernible name",
+    "description": "Link text (and alternate text for images, when used as links) that is discernible, unique, and focusable improves the navigation experience for screen reader users. [Learn more](https://web.dev/link-name/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-84-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,4,DIV,0,DIV,1,DIV,1,DIV,1,DIV,0,SECTION,103,DIV,0,DIV,0,P,0,A",
+            "selector": "div.nwidget > div.col-sm-3 > p > a",
+            "boundingRect": {
+              "top": 6946,
+              "bottom": 6946,
+              "left": 422,
+              "right": 422,
+              "width": 0,
+              "height": 0
+            },
+            "snippet": "<a href=\"https://catalog.archives.gov/id/23856021\">",
+            "nodeLabel": "div.nwidget > div.col-sm-3 > p > a",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.name-role-value",
+          "wcag2a",
+          "wcag412",
+          "wcag244",
+          "section508",
+          "section508.22.a",
+          "ACT"
+        ]
+      }
+    },
+    "errorCount": 1
+  }
+]
