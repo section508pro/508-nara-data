@@ -1,0 +1,105 @@
+[
+  {
+    "id": "color-contrast",
+    "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+    "description": "Low-contrast text is difficult or impossible for many users to read. [Learn more](https://web.dev/color-contrast/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-199-H2",
+            "path": "1,HTML,1,BODY,1,DIV,1,DIV,0,DIV,2,DIV,6,FOOTER,1,SECTION,0,H2",
+            "selector": "div.wrapper > footer#page-footer > section#mega-footer > h2.footer-title",
+            "boundingRect": {
+              "top": 4054,
+              "bottom": 4082,
+              "left": 8,
+              "right": 420,
+              "width": 412,
+              "height": 28
+            },
+            "snippet": "<h2 class=\"footer-title\">",
+            "nodeLabel": "Archives.gov",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.29 (foreground color: #000000, background color: #7e2d29, font size: 18.0pt (24px), font weight: bold). Expected contrast ratio of 3:1"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.color",
+          "wcag2aa",
+          "wcag143"
+        ]
+      }
+    },
+    "errorCount": 1
+  },
+  {
+    "id": "heading-order",
+    "title": "Heading elements are not in a sequentially-descending order",
+    "description": "Properly ordered headings that do not skip levels convey the semantic structure of the page, making it easier to navigate and understand when using assistive technologies. [Learn more](https://web.dev/heading-order/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-200-H3",
+            "path": "1,HTML,1,BODY,1,DIV,1,DIV,0,DIV,2,DIV,4,DIV,0,DIV,1,DIV,1,DIV,1,DIV,0,SECTION,2,H3",
+            "selector": "div#main-col > div.region > section#block-system-main > h3",
+            "boundingRect": {
+              "top": 1508,
+              "bottom": 1594,
+              "left": 8,
+              "right": 420,
+              "width": 412,
+              "height": 86
+            },
+            "snippet": "<h3>",
+            "nodeLabel": "\"Managing the Intangible: Creating, Storing and Retrieving Digital Surrogates o…",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "moderate",
+        "tags": [
+          "cat.semantics",
+          "best-practice"
+        ]
+      }
+    },
+    "errorCount": 1
+  }
+]

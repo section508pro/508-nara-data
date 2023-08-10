@@ -1,0 +1,529 @@
+[
+  {
+    "id": "list",
+    "title": "Lists do not contain only `<li>` elements and script supporting elements (`<script>` and `<template>`).",
+    "description": "Screen readers have a specific way of announcing lists. Ensuring proper list structure aids screen reader output. [Learn more](https://web.dev/list/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-242-UL",
+            "path": "1,HTML,1,BODY,1,DIV,1,DIV,0,DIV,2,DIV,4,DIV,0,DIV,1,DIV,1,DIV,1,DIV,0,SECTION,243,UL",
+            "selector": "div#main-col > div.region > section#block-system-main > ul",
+            "boundingRect": {
+              "top": 70443,
+              "bottom": 70580,
+              "left": 15,
+              "right": 397,
+              "width": 382,
+              "height": 137
+            },
+            "snippet": "<ul>",
+            "nodeLabel": "The Inspector General reviewed NARA's records disposal and concurrence process …",
+            "explanation": "Fix all of the following:\n  List element has direct children that are not allowed inside <li> elements"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-243-UL",
+            "path": "1,HTML,1,BODY,1,DIV,1,DIV,0,DIV,2,DIV,4,DIV,0,DIV,1,DIV,1,DIV,1,DIV,0,SECTION,245,UL",
+            "selector": "div#main-col > div.region > section#block-system-main > ul",
+            "boundingRect": {
+              "top": 70659,
+              "bottom": 70773,
+              "left": 15,
+              "right": 397,
+              "width": 382,
+              "height": 114
+            },
+            "snippet": "<ul>",
+            "nodeLabel": "The Inspector General reviewed NARA's targeted assistance program. Two recommen…",
+            "explanation": "Fix all of the following:\n  List element has direct children that are not allowed inside <li> elements"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-244-UL",
+            "path": "1,HTML,1,BODY,1,DIV,1,DIV,0,DIV,2,DIV,4,DIV,0,DIV,1,DIV,1,DIV,1,DIV,0,SECTION,248,UL",
+            "selector": "div#main-col > div.region > section#block-system-main > ul",
+            "boundingRect": {
+              "top": 70884,
+              "bottom": 71044,
+              "left": 15,
+              "right": 397,
+              "width": 382,
+              "height": 160
+            },
+            "snippet": "<ul>",
+            "nodeLabel": "GAO conducted a review of NARA's actions to improve response time to veterans' …",
+            "explanation": "Fix all of the following:\n  List element has direct children that are not allowed inside <li> elements"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-245-UL",
+            "path": "1,HTML,1,BODY,1,DIV,1,DIV,0,DIV,2,DIV,4,DIV,0,DIV,1,DIV,1,DIV,1,DIV,0,SECTION,250,UL",
+            "selector": "div#main-col > div.region > section#block-system-main > ul",
+            "boundingRect": {
+              "top": 71123,
+              "bottom": 71191,
+              "left": 15,
+              "right": 397,
+              "width": 382,
+              "height": 69
+            },
+            "snippet": "<ul>",
+            "nodeLabel": "The Inspector General audited an NHPRC grantee and made four recommendations. A…",
+            "explanation": "Fix all of the following:\n  List element has direct children that are not allowed inside <li> elements"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-246-UL",
+            "path": "1,HTML,1,BODY,1,DIV,1,DIV,0,DIV,2,DIV,4,DIV,0,DIV,1,DIV,1,DIV,1,DIV,0,SECTION,252,UL",
+            "selector": "div#main-col > div.region > section#block-system-main > ul",
+            "boundingRect": {
+              "top": 71247,
+              "bottom": 71338,
+              "left": 15,
+              "right": 397,
+              "width": 382,
+              "height": 91
+            },
+            "snippet": "<ul>",
+            "nodeLabel": "The Inspector General reviewed NARA's grant management process and made two rec…",
+            "explanation": "Fix all of the following:\n  List element has direct children that are not allowed inside <li> elements"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-247-UL",
+            "path": "1,HTML,1,BODY,1,DIV,1,DIV,0,DIV,2,DIV,4,DIV,0,DIV,1,DIV,1,DIV,1,DIV,0,SECTION,254,UL",
+            "selector": "div#main-col > div.region > section#block-system-main > ul",
+            "boundingRect": {
+              "top": 71417,
+              "bottom": 71623,
+              "left": 15,
+              "right": 397,
+              "width": 382,
+              "height": 206
+            },
+            "snippet": "<ul>",
+            "nodeLabel": "The Inspector General reviewed NARA's procedures governing the release of Feder…",
+            "explanation": "Fix all of the following:\n  List element has direct children that are not allowed inside <li> elements"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-248-UL",
+            "path": "1,HTML,1,BODY,1,DIV,1,DIV,0,DIV,2,DIV,4,DIV,0,DIV,1,DIV,1,DIV,1,DIV,0,SECTION,256,UL",
+            "selector": "div#main-col > div.region > section#block-system-main > ul",
+            "boundingRect": {
+              "top": 71678,
+              "bottom": 71816,
+              "left": 15,
+              "right": 397,
+              "width": 382,
+              "height": 137
+            },
+            "snippet": "<ul>",
+            "nodeLabel": "The Inspector General found that NARA is taking necessary actions to protect th…",
+            "explanation": "Fix all of the following:\n  List element has direct children that are not allowed inside <li> elements"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-249-UL",
+            "path": "1,HTML,1,BODY,1,DIV,1,DIV,0,DIV,2,DIV,4,DIV,0,DIV,1,DIV,1,DIV,1,DIV,0,SECTION,259,UL",
+            "selector": "div#main-col > div.region > section#block-system-main > ul",
+            "boundingRect": {
+              "top": 71950,
+              "bottom": 72133,
+              "left": 15,
+              "right": 397,
+              "width": 382,
+              "height": 183
+            },
+            "snippet": "<ul>",
+            "nodeLabel": "The General Accounting Office identified two areas that needed to be addressed …",
+            "explanation": "Fix all of the following:\n  List element has direct children that are not allowed inside <li> elements"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-250-UL",
+            "path": "1,HTML,1,BODY,1,DIV,1,DIV,0,DIV,2,DIV,4,DIV,0,DIV,1,DIV,1,DIV,1,DIV,0,SECTION,261,UL",
+            "selector": "div#main-col > div.region > section#block-system-main > ul",
+            "boundingRect": {
+              "top": 72188,
+              "bottom": 72280,
+              "left": 15,
+              "right": 397,
+              "width": 382,
+              "height": 91
+            },
+            "snippet": "<ul>",
+            "nodeLabel": "The office conducted a comprehensive evaluation of regional activities at Rocky…",
+            "explanation": "Fix all of the following:\n  List element has direct children that are not allowed inside <li> elements"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-251-UL",
+            "path": "1,HTML,1,BODY,1,DIV,1,DIV,0,DIV,2,DIV,4,DIV,0,DIV,1,DIV,1,DIV,1,DIV,0,SECTION,263,UL",
+            "selector": "div#main-col > div.region > section#block-system-main > ul",
+            "boundingRect": {
+              "top": 72335,
+              "bottom": 72450,
+              "left": 15,
+              "right": 397,
+              "width": 382,
+              "height": 114
+            },
+            "snippet": "<ul>",
+            "nodeLabel": "The office conducted a comprehensive evaluation of regional activities at Mid-A…",
+            "explanation": "Fix all of the following:\n  List element has direct children that are not allowed inside <li> elements"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-252-UL",
+            "path": "1,HTML,1,BODY,1,DIV,1,DIV,0,DIV,2,DIV,4,DIV,0,DIV,1,DIV,1,DIV,1,DIV,0,SECTION,265,UL",
+            "selector": "div#main-col > div.region > section#block-system-main > ul",
+            "boundingRect": {
+              "top": 72505,
+              "bottom": 72620,
+              "left": 15,
+              "right": 397,
+              "width": 382,
+              "height": 114
+            },
+            "snippet": "<ul>",
+            "nodeLabel": "TThe office conducted a comprehensive evaluation of regional activities at Paci…",
+            "explanation": "Fix all of the following:\n  List element has direct children that are not allowed inside <li> elements"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-253-UL",
+            "path": "1,HTML,1,BODY,1,DIV,1,DIV,0,DIV,2,DIV,4,DIV,0,DIV,1,DIV,1,DIV,1,DIV,0,SECTION,267,UL",
+            "selector": "div#main-col > div.region > section#block-system-main > ul",
+            "boundingRect": {
+              "top": 72675,
+              "bottom": 72790,
+              "left": 15,
+              "right": 397,
+              "width": 382,
+              "height": 114
+            },
+            "snippet": "<ul>",
+            "nodeLabel": "The Office of Administrative Services conducted physical security reviews of Ji…",
+            "explanation": "Fix all of the following:\n  List element has direct children that are not allowed inside <li> elements"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-254-UL",
+            "path": "1,HTML,1,BODY,1,DIV,1,DIV,0,DIV,2,DIV,4,DIV,0,DIV,1,DIV,1,DIV,1,DIV,0,SECTION,270,UL",
+            "selector": "div#main-col > div.region > section#block-system-main > ul",
+            "boundingRect": {
+              "top": 72901,
+              "bottom": 73061,
+              "left": 15,
+              "right": 397,
+              "width": 382,
+              "height": 160
+            },
+            "snippet": "<ul>",
+            "nodeLabel": "The Inspector General conducted an evaluation of NARA's firewall and network co…",
+            "explanation": "Fix all of the following:\n  List element has direct children that are not allowed inside <li> elements"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-255-UL",
+            "path": "1,HTML,1,BODY,1,DIV,1,DIV,0,DIV,2,DIV,4,DIV,0,DIV,1,DIV,1,DIV,1,DIV,0,SECTION,272,UL",
+            "selector": "div#main-col > div.region > section#block-system-main > ul",
+            "boundingRect": {
+              "top": 73139,
+              "bottom": 73254,
+              "left": 15,
+              "right": 397,
+              "width": 382,
+              "height": 114
+            },
+            "snippet": "<ul>",
+            "nodeLabel": "The Inspector General conducted an evaluation of NARA's EEO Complaints Processi…",
+            "explanation": "Fix all of the following:\n  List element has direct children that are not allowed inside <li> elements"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-256-UL",
+            "path": "1,HTML,1,BODY,1,DIV,1,DIV,0,DIV,2,DIV,4,DIV,0,DIV,1,DIV,1,DIV,1,DIV,0,SECTION,274,UL",
+            "selector": "div#main-col > div.region > section#block-system-main > ul",
+            "boundingRect": {
+              "top": 73309,
+              "bottom": 73401,
+              "left": 15,
+              "right": 397,
+              "width": 382,
+              "height": 91
+            },
+            "snippet": "<ul>",
+            "nodeLabel": "The Inspector General conducted a review of NARA's anti-virus protection progra…",
+            "explanation": "Fix all of the following:\n  List element has direct children that are not allowed inside <li> elements"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-257-UL",
+            "path": "1,HTML,1,BODY,1,DIV,1,DIV,0,DIV,2,DIV,4,DIV,0,DIV,1,DIV,1,DIV,1,DIV,0,SECTION,276,UL",
+            "selector": "div#main-col > div.region > section#block-system-main > ul",
+            "boundingRect": {
+              "top": 73457,
+              "bottom": 73594,
+              "left": 15,
+              "right": 397,
+              "width": 382,
+              "height": 137
+            },
+            "snippet": "<ul>",
+            "nodeLabel": "The Inspector General conducted a review of NARA's information system security …",
+            "explanation": "Fix all of the following:\n  List element has direct children that are not allowed inside <li> elements"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-258-UL",
+            "path": "1,HTML,1,BODY,1,DIV,1,DIV,0,DIV,2,DIV,4,DIV,0,DIV,1,DIV,1,DIV,1,DIV,0,SECTION,278,UL",
+            "selector": "div#main-col > div.region > section#block-system-main > ul",
+            "boundingRect": {
+              "top": 73672,
+              "bottom": 73786,
+              "left": 15,
+              "right": 397,
+              "width": 382,
+              "height": 114
+            },
+            "snippet": "<ul>",
+            "nodeLabel": "In compliance with the FAIR Act, NARA compiled information about the activities…",
+            "explanation": "Fix all of the following:\n  List element has direct children that are not allowed inside <li> elements"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-259-UL",
+            "path": "1,HTML,1,BODY,1,DIV,1,DIV,0,DIV,2,DIV,4,DIV,0,DIV,1,DIV,1,DIV,1,DIV,0,SECTION,281,UL",
+            "selector": "div#main-col > div.region > section#block-system-main > ul",
+            "boundingRect": {
+              "top": 73921,
+              "bottom": 74012,
+              "left": 15,
+              "right": 397,
+              "width": 382,
+              "height": 91
+            },
+            "snippet": "<ul>",
+            "nodeLabel": "The report made four recommendations. NARA responded with an action plan to add…",
+            "explanation": "Fix all of the following:\n  List element has direct children that are not allowed inside <li> elements"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-260-UL",
+            "path": "1,HTML,1,BODY,1,DIV,1,DIV,0,DIV,2,DIV,4,DIV,0,DIV,1,DIV,1,DIV,1,DIV,0,SECTION,283,UL",
+            "selector": "div#main-col > div.region > section#block-system-main > ul",
+            "boundingRect": {
+              "top": 74091,
+              "bottom": 74182,
+              "left": 15,
+              "right": 397,
+              "width": 382,
+              "height": 91
+            },
+            "snippet": "<ul>",
+            "nodeLabel": "The report made two recommendations. NARA responded with an action plan to addr…",
+            "explanation": "Fix all of the following:\n  List element has direct children that are not allowed inside <li> elements"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-261-UL",
+            "path": "1,HTML,1,BODY,1,DIV,1,DIV,0,DIV,2,DIV,4,DIV,0,DIV,1,DIV,1,DIV,1,DIV,0,SECTION,285,UL",
+            "selector": "div#main-col > div.region > section#block-system-main > ul",
+            "boundingRect": {
+              "top": 74261,
+              "bottom": 74398,
+              "left": 15,
+              "right": 397,
+              "width": 382,
+              "height": 137
+            },
+            "snippet": "<ul>",
+            "nodeLabel": "GAO conducted a review of NARA's efforts to manage and preserve electronic reco…",
+            "explanation": "Fix all of the following:\n  List element has direct children that are not allowed inside <li> elements"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-262-UL",
+            "path": "1,HTML,1,BODY,1,DIV,1,DIV,0,DIV,2,DIV,4,DIV,0,DIV,1,DIV,1,DIV,1,DIV,0,SECTION,287,UL",
+            "selector": "div#main-col > div.region > section#block-system-main > ul",
+            "boundingRect": {
+              "top": 74453,
+              "bottom": 74545,
+              "left": 15,
+              "right": 397,
+              "width": 382,
+              "height": 91
+            },
+            "snippet": "<ul>",
+            "nodeLabel": "The office conducted a program review at the Harry S. Truman Library in Indepen…",
+            "explanation": "Fix all of the following:\n  List element has direct children that are not allowed inside <li> elements"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-263-UL",
+            "path": "1,HTML,1,BODY,1,DIV,1,DIV,0,DIV,2,DIV,4,DIV,0,DIV,1,DIV,1,DIV,1,DIV,0,SECTION,289,UL",
+            "selector": "div#main-col > div.region > section#block-system-main > ul",
+            "boundingRect": {
+              "top": 74601,
+              "bottom": 74715,
+              "left": 15,
+              "right": 397,
+              "width": 382,
+              "height": 114
+            },
+            "snippet": "<ul>",
+            "nodeLabel": "The office conducted a program review at the George Bush Library in College Sta…",
+            "explanation": "Fix all of the following:\n  List element has direct children that are not allowed inside <li> elements"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-264-UL",
+            "path": "1,HTML,1,BODY,1,DIV,1,DIV,0,DIV,2,DIV,4,DIV,0,DIV,1,DIV,1,DIV,1,DIV,0,SECTION,291,UL",
+            "selector": "div#main-col > div.region > section#block-system-main > ul",
+            "boundingRect": {
+              "top": 74771,
+              "bottom": 74885,
+              "left": 15,
+              "right": 397,
+              "width": 382,
+              "height": 114
+            },
+            "snippet": "<ul>",
+            "nodeLabel": "The office conducted a program review at the John F. Kennedy Library in Boston,…",
+            "explanation": "Fix all of the following:\n  List element has direct children that are not allowed inside <li> elements"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-265-UL",
+            "path": "1,HTML,1,BODY,1,DIV,1,DIV,0,DIV,2,DIV,4,DIV,0,DIV,1,DIV,1,DIV,1,DIV,0,SECTION,293,UL",
+            "selector": "div#main-col > div.region > section#block-system-main > ul",
+            "boundingRect": {
+              "top": 74941,
+              "bottom": 75055,
+              "left": 15,
+              "right": 397,
+              "width": 382,
+              "height": 114
+            },
+            "snippet": "<ul>",
+            "nodeLabel": "The office conducted a program review at the Ronald Reagan Presidential Library…",
+            "explanation": "Fix all of the following:\n  List element has direct children that are not allowed inside <li> elements"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-266-UL",
+            "path": "1,HTML,1,BODY,1,DIV,1,DIV,0,DIV,2,DIV,4,DIV,0,DIV,1,DIV,1,DIV,1,DIV,0,SECTION,295,UL",
+            "selector": "div#main-col > div.region > section#block-system-main > ul",
+            "boundingRect": {
+              "top": 75110,
+              "bottom": 75225,
+              "left": 15,
+              "right": 397,
+              "width": 382,
+              "height": 114
+            },
+            "snippet": "<ul>",
+            "nodeLabel": "The office conducted a program review at the Lyndon Baines Johnson Library in A…",
+            "explanation": "Fix all of the following:\n  List element has direct children that are not allowed inside <li> elements"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-267-UL",
+            "path": "1,HTML,1,BODY,1,DIV,1,DIV,0,DIV,2,DIV,4,DIV,0,DIV,1,DIV,1,DIV,1,DIV,0,SECTION,297,UL",
+            "selector": "div#main-col > div.region > section#block-system-main > ul",
+            "boundingRect": {
+              "top": 75280,
+              "bottom": 75395,
+              "left": 15,
+              "right": 397,
+              "width": 382,
+              "height": 114
+            },
+            "snippet": "<ul>",
+            "nodeLabel": "The office conducted a program review at the Herbert Hoover Library in West Bra…",
+            "explanation": "Fix all of the following:\n  List element has direct children that are not allowed inside <li> elements"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.structure",
+          "wcag2a",
+          "wcag131"
+        ]
+      }
+    },
+    "errorCount": 26
+  }
+]
