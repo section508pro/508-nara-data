@@ -1,0 +1,394 @@
+[
+  {
+    "id": "heading-order",
+    "title": "Heading elements are not in a sequentially-descending order",
+    "description": "Properly ordered headings that do not skip levels convey the semantic structure of the page, making it easier to navigate and understand when using assistive technologies. [Learn more](https://web.dev/heading-order/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-180-H4",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,4,DIV,0,DIV,1,DIV,1,DIV,1,DIV,0,SECTION,3,DIV,1,DIV,0,H4",
+            "selector": "section#block-system-main > div.nwidget > div.col-sm-9 > h4",
+            "boundingRect": {
+              "top": 404,
+              "bottom": 424,
+              "left": 529,
+              "right": 1320,
+              "width": 791,
+              "height": 20
+            },
+            "snippet": "<h4>",
+            "nodeLabel": "Robert D. W. Connor",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "moderate",
+        "tags": [
+          "cat.semantics",
+          "best-practice"
+        ]
+      }
+    },
+    "errorCount": 1
+  },
+  {
+    "id": "link-name",
+    "title": "Links do not have a discernible name",
+    "description": "Link text (and alternate text for images, when used as links) that is discernible, unique, and focusable improves the navigation experience for screen reader users. [Learn more](https://web.dev/link-name/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-24-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,4,DIV,0,DIV,1,DIV,1,DIV,1,DIV,0,SECTION,3,DIV,0,DIV,0,P,0,A",
+            "selector": "div.nwidget > div.col-sm-3 > p > a",
+            "boundingRect": {
+              "top": 394,
+              "bottom": 394,
+              "left": 255,
+              "right": 255,
+              "width": 0,
+              "height": 0
+            },
+            "snippet": "<a href=\"/about/history/archivists/connor.html\">",
+            "nodeLabel": "div.nwidget > div.col-sm-3 > p > a",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-26-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,4,DIV,0,DIV,1,DIV,1,DIV,1,DIV,0,SECTION,4,DIV,0,DIV,0,P,0,A",
+            "selector": "div.nwidget > div.col-sm-3 > p > a",
+            "boundingRect": {
+              "top": 593,
+              "bottom": 593,
+              "left": 255,
+              "right": 255,
+              "width": 0,
+              "height": 0
+            },
+            "snippet": "<a href=\"/about/history/archivists/buck.html\">",
+            "nodeLabel": "div.nwidget > div.col-sm-3 > p > a",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-28-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,4,DIV,0,DIV,1,DIV,1,DIV,1,DIV,0,SECTION,5,DIV,0,DIV,0,P,0,A",
+            "selector": "div.nwidget > div.col-sm-3 > p > a",
+            "boundingRect": {
+              "top": 788,
+              "bottom": 788,
+              "left": 255,
+              "right": 255,
+              "width": 0,
+              "height": 0
+            },
+            "snippet": "<a href=\"/about/history/archivists/grover.html\">",
+            "nodeLabel": "div.nwidget > div.col-sm-3 > p > a",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-30-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,4,DIV,0,DIV,1,DIV,1,DIV,1,DIV,0,SECTION,6,DIV,0,DIV,0,P,0,A",
+            "selector": "div.nwidget > div.col-sm-3 > p > a",
+            "boundingRect": {
+              "top": 979,
+              "bottom": 979,
+              "left": 255,
+              "right": 255,
+              "width": 0,
+              "height": 0
+            },
+            "snippet": "<a href=\"/about/history/archivists/bahmer.html\">",
+            "nodeLabel": "div.nwidget > div.col-sm-3 > p > a",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-32-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,4,DIV,0,DIV,1,DIV,1,DIV,1,DIV,0,SECTION,7,DIV,0,DIV,0,H4,0,A",
+            "selector": "div.nwidget > div.col-sm-3 > h4 > a",
+            "boundingRect": {
+              "top": 1181,
+              "bottom": 1181,
+              "left": 255,
+              "right": 255,
+              "width": 0,
+              "height": 0
+            },
+            "snippet": "<a href=\"/about/history/archivists/rhoads.html\">",
+            "nodeLabel": "div.nwidget > div.col-sm-3 > h4 > a",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-34-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,4,DIV,0,DIV,1,DIV,1,DIV,1,DIV,0,SECTION,8,DIV,0,DIV,0,P,0,A",
+            "selector": "div.nwidget > div.col-sm-3 > p > a",
+            "boundingRect": {
+              "top": 1372,
+              "bottom": 1372,
+              "left": 255,
+              "right": 255,
+              "width": 0,
+              "height": 0
+            },
+            "snippet": "<a href=\"/about/history/archivists/oneill.html\">",
+            "nodeLabel": "div.nwidget > div.col-sm-3 > p > a",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-36-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,4,DIV,0,DIV,1,DIV,1,DIV,1,DIV,0,SECTION,9,DIV,0,DIV,0,P,0,A",
+            "selector": "div.nwidget > div.col-sm-3 > p > a",
+            "boundingRect": {
+              "top": 1555,
+              "bottom": 1555,
+              "left": 255,
+              "right": 255,
+              "width": 0,
+              "height": 0
+            },
+            "snippet": "<a href=\"/about/history/archivists/warner.html\">",
+            "nodeLabel": "div.nwidget > div.col-sm-3 > p > a",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-38-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,4,DIV,0,DIV,1,DIV,1,DIV,1,DIV,0,SECTION,10,DIV,0,DIV,0,P,0,A",
+            "selector": "div.nwidget > div.col-sm-3 > p > a",
+            "boundingRect": {
+              "top": 1756,
+              "bottom": 1756,
+              "left": 255,
+              "right": 255,
+              "width": 0,
+              "height": 0
+            },
+            "snippet": "<a href=\"/about/history/archivists/burke.html\">",
+            "nodeLabel": "div.nwidget > div.col-sm-3 > p > a",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-40-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,4,DIV,0,DIV,1,DIV,1,DIV,1,DIV,0,SECTION,11,DIV,0,DIV,0,P,0,A",
+            "selector": "div.nwidget > div.col-sm-3 > p > a",
+            "boundingRect": {
+              "top": 1937,
+              "bottom": 1937,
+              "left": 255,
+              "right": 255,
+              "width": 0,
+              "height": 0
+            },
+            "snippet": "<a href=\"/about/history/archivists/wilson.html\">",
+            "nodeLabel": "div.nwidget > div.col-sm-3 > p > a",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-42-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,4,DIV,0,DIV,1,DIV,1,DIV,1,DIV,0,SECTION,12,DIV,0,DIV,0,P,0,A",
+            "selector": "div.nwidget > div.col-sm-3 > p > a",
+            "boundingRect": {
+              "top": 2128,
+              "bottom": 2128,
+              "left": 255,
+              "right": 255,
+              "width": 0,
+              "height": 0
+            },
+            "snippet": "<a href=\"/about/history/archivists/peterson.html\">",
+            "nodeLabel": "div.nwidget > div.col-sm-3 > p > a",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-44-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,4,DIV,0,DIV,1,DIV,1,DIV,1,DIV,0,SECTION,13,DIV,0,DIV,0,P,0,A",
+            "selector": "div.nwidget > div.col-sm-3 > p > a",
+            "boundingRect": {
+              "top": 2308,
+              "bottom": 2308,
+              "left": 255,
+              "right": 255,
+              "width": 0,
+              "height": 0
+            },
+            "snippet": "<a href=\"/about/history/archivists/carlin.html\">",
+            "nodeLabel": "div.nwidget > div.col-sm-3 > p > a",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-46-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,4,DIV,0,DIV,1,DIV,1,DIV,1,DIV,0,SECTION,14,DIV,0,DIV,0,H4,0,A",
+            "selector": "div.nwidget > div.col-sm-3 > h4 > a",
+            "boundingRect": {
+              "top": 2506,
+              "bottom": 2506,
+              "left": 255,
+              "right": 255,
+              "width": 0,
+              "height": 0
+            },
+            "snippet": "<a href=\"/about/history/archivists/weinstein.html\">",
+            "nodeLabel": "div.nwidget > div.col-sm-3 > h4 > a",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-48-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,4,DIV,0,DIV,1,DIV,1,DIV,1,DIV,0,SECTION,15,DIV,0,DIV,0,P,0,A",
+            "selector": "div.nwidget > div.col-sm-3 > p > a",
+            "boundingRect": {
+              "top": 2697,
+              "bottom": 2697,
+              "left": 255,
+              "right": 255,
+              "width": 0,
+              "height": 0
+            },
+            "snippet": "<a href=\"/about/history/archivists/thomas.html\">",
+            "nodeLabel": "div.nwidget > div.col-sm-3 > p > a",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-50-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,4,DIV,0,DIV,1,DIV,1,DIV,1,DIV,0,SECTION,16,DIV,0,DIV,0,P,0,A",
+            "selector": "div.nwidget > div.col-sm-3 > p > a",
+            "boundingRect": {
+              "top": 2907,
+              "bottom": 2907,
+              "left": 255,
+              "right": 255,
+              "width": 0,
+              "height": 0
+            },
+            "snippet": "<a href=\"/about/history/archivists/ferriero.html\">",
+            "nodeLabel": "div.nwidget > div.col-sm-3 > p > a",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-52-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,4,DIV,0,DIV,1,DIV,1,DIV,1,DIV,0,SECTION,17,DIV,0,DIV,0,P,0,A",
+            "selector": "div.nwidget > div.col-sm-3 > p > a",
+            "boundingRect": {
+              "top": 3118,
+              "bottom": 3118,
+              "left": 255,
+              "right": 255,
+              "width": 0,
+              "height": 0
+            },
+            "snippet": "<a href=\"/about/organization/senior-staff/deputy-archivist\">",
+            "nodeLabel": "div.nwidget > div.col-sm-3 > p > a",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-54-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,4,DIV,0,DIV,1,DIV,1,DIV,1,DIV,0,SECTION,18,DIV,0,DIV,0,P,0,A",
+            "selector": "div.nwidget > div.col-sm-3 > p > a",
+            "boundingRect": {
+              "top": 3323,
+              "bottom": 3323,
+              "left": 255,
+              "right": 255,
+              "width": 0,
+              "height": 0
+            },
+            "snippet": "<a href=\"/about/organization/senior-staff/archivist\">",
+            "nodeLabel": "div.nwidget > div.col-sm-3 > p > a",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.name-role-value",
+          "wcag2a",
+          "wcag412",
+          "wcag244",
+          "section508",
+          "section508.22.a",
+          "ACT"
+        ]
+      }
+    },
+    "errorCount": 16
+  }
+]
