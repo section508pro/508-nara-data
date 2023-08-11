@@ -1,0 +1,232 @@
+[
+  {
+    "id": "color-contrast",
+    "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+    "description": "Low-contrast text is difficult or impossible for many users to read. [Learn more](https://web.dev/color-contrast/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-0-A",
+            "path": "1,HTML,1,BODY,1,DIV,1,DIV,0,DIV,0,A",
+            "selector": "div.jPanelMenu-panel > div#background-gradient > div.wrapper > a.back-to-top",
+            "boundingRect": {
+              "top": 1,
+              "bottom": 21,
+              "left": 0,
+              "right": 27,
+              "width": 27,
+              "height": 20
+            },
+            "snippet": "<a class=\"back-to-top\" href=\"#page-header\" style=\"opacity: 0.875056;\">",
+            "nodeLabel": "Top",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.01 (foreground color: #2e4e77, background color: #2d4d76, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "11-200-DIV",
+                  "path": "1,HTML,1,BODY,1,DIV",
+                  "selector": "body.html > div.jPanelMenu-panel",
+                  "boundingRect": {
+                    "top": 0,
+                    "bottom": 5741,
+                    "left": 0,
+                    "right": 412,
+                    "width": 412,
+                    "height": 5741
+                  },
+                  "snippet": "<div class=\"jPanelMenu-panel\" style=\"position: static; transform: translate3d(0%, 0px, 0px);\">",
+                  "nodeLabel": "Top\nSkip to main content\nThe U.S. National Archives Home\nMenu\nSearch\nSearch\n\nAb…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-124-A",
+            "path": "1,HTML,1,BODY,1,DIV,1,DIV,1,A",
+            "selector": "body.html > div.jPanelMenu-panel > div#background-gradient > a.back-to-top",
+            "boundingRect": {
+              "top": 5719,
+              "bottom": 5739,
+              "left": 0,
+              "right": 27,
+              "width": 27,
+              "height": 20
+            },
+            "snippet": "<a class=\"back-to-top\" href=\"#page-header\" style=\"display: inline; opacity: 0.875056;\">",
+            "nodeLabel": "Top",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.01 (foreground color: #2e4e77, background color: #2d4d76, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "11-200-DIV",
+                  "path": "1,HTML,1,BODY,1,DIV",
+                  "selector": "body.html > div.jPanelMenu-panel",
+                  "boundingRect": {
+                    "top": 0,
+                    "bottom": 5741,
+                    "left": 0,
+                    "right": 412,
+                    "width": 412,
+                    "height": 5741
+                  },
+                  "snippet": "<div class=\"jPanelMenu-panel\" style=\"position: static; transform: translate3d(0%, 0px, 0px);\">",
+                  "nodeLabel": "Top\nSkip to main content\nThe U.S. National Archives Home\nMenu\nSearch\nSearch\n\nAb…"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.color",
+          "wcag2aa",
+          "wcag143"
+        ]
+      }
+    },
+    "errorCount": 2
+  },
+  {
+    "id": "link-name",
+    "title": "Links do not have a discernible name",
+    "description": "Link text (and alternate text for images, when used as links) that is discernible, unique, and focusable improves the navigation experience for screen reader users. [Learn more](https://web.dev/link-name/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-38-A",
+            "path": "1,HTML,1,BODY,1,DIV,1,DIV,0,DIV,2,DIV,4,DIV,0,DIV,1,DIV,1,DIV,1,DIV,0,SECTION,10,P,0,A",
+            "selector": "div.region > section#block-system-main > p#shared- > a.noDocIcon",
+            "boundingRect": {
+              "top": 1264,
+              "bottom": 1284,
+              "left": 405,
+              "right": 405,
+              "width": 0,
+              "height": 20
+            },
+            "snippet": "<a href=\"/files/about/plans-reports/trust-fund/2021-trust-fund-annual-report.pdf\" class=\"noDocIcon\">",
+            "nodeLabel": "div.region > section#block-system-main > p#shared- > a.noDocIcon",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-40-A",
+            "path": "1,HTML,1,BODY,1,DIV,1,DIV,0,DIV,2,DIV,4,DIV,0,DIV,1,DIV,1,DIV,1,DIV,0,SECTION,16,P,0,A",
+            "selector": "div.region > section#block-system-main > p#shared- > a.noDocIcon",
+            "boundingRect": {
+              "top": 2017,
+              "bottom": 2037,
+              "left": 239,
+              "right": 239,
+              "width": 0,
+              "height": 20
+            },
+            "snippet": "<a href=\"/files/about/plans-reports/trust-fund/2019-trust-fund-annual-report.pdf\" class=\"noDocIcon\">",
+            "nodeLabel": "div.region > section#block-system-main > p#shared- > a.noDocIcon",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-42-A",
+            "path": "1,HTML,1,BODY,1,DIV,1,DIV,0,DIV,2,DIV,4,DIV,0,DIV,1,DIV,1,DIV,1,DIV,0,SECTION,21,P,0,A",
+            "selector": "div.region > section#block-system-main > p#shared- > a.noDocIcon",
+            "boundingRect": {
+              "top": 2357,
+              "bottom": 2377,
+              "left": 405,
+              "right": 405,
+              "width": 0,
+              "height": 20
+            },
+            "snippet": "<a href=\"/files/about/plans-reports/trust-fund/2018-trust-fund-report.pdf\" class=\"noDocIcon\">",
+            "nodeLabel": "div.region > section#block-system-main > p#shared- > a.noDocIcon",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-44-A",
+            "path": "1,HTML,1,BODY,1,DIV,1,DIV,0,DIV,2,DIV,4,DIV,0,DIV,1,DIV,1,DIV,1,DIV,0,SECTION,26,P,0,A",
+            "selector": "div.region > section#block-system-main > p#shared- > a.noDocIcon",
+            "boundingRect": {
+              "top": 3084,
+              "bottom": 3104,
+              "left": 405,
+              "right": 405,
+              "width": 0,
+              "height": 20
+            },
+            "snippet": "<a href=\"/files/about/plans-reports/trust-fund/2017-annual-report.pdf\" class=\"noDocIcon\">",
+            "nodeLabel": "div.region > section#block-system-main > p#shared- > a.noDocIcon",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.name-role-value",
+          "wcag2a",
+          "wcag412",
+          "wcag244",
+          "section508",
+          "section508.22.a",
+          "ACT"
+        ]
+      }
+    },
+    "errorCount": 4
+  }
+]

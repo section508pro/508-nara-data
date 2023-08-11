@@ -1,0 +1,194 @@
+[
+  {
+    "id": "color-contrast",
+    "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+    "description": "Low-contrast text is difficult or impossible for many users to read. [Learn more](https://web.dev/color-contrast/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-0-A",
+            "path": "1,HTML,1,BODY,1,DIV,1,DIV,0,DIV,0,A",
+            "selector": "div.jPanelMenu-panel > div#background-gradient > div.wrapper > a.back-to-top",
+            "boundingRect": {
+              "top": 1,
+              "bottom": 21,
+              "left": 0,
+              "right": 27,
+              "width": 27,
+              "height": 20
+            },
+            "snippet": "<a class=\"back-to-top\" href=\"#page-header\" style=\"opacity: 0.0149367;\">",
+            "nodeLabel": "Top",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.04 (foreground color: #305078, background color: #2d4d76, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "11-183-DIV",
+                  "path": "1,HTML,1,BODY,1,DIV",
+                  "selector": "body.html > div.jPanelMenu-panel",
+                  "boundingRect": {
+                    "top": 0,
+                    "bottom": 1622,
+                    "left": 0,
+                    "right": 412,
+                    "width": 412,
+                    "height": 1622
+                  },
+                  "snippet": "<div class=\"jPanelMenu-panel\" style=\"position: static; transform: translate3d(0%, 0px, 0px);\">",
+                  "nodeLabel": "Top\nSkip to main content\nThe U.S. National Archives Home\nMenu\nSearch\nSearch\n\nAb…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-107-A",
+            "path": "1,HTML,1,BODY,1,DIV,1,DIV,1,A",
+            "selector": "body.html > div.jPanelMenu-panel > div#background-gradient > a.back-to-top",
+            "boundingRect": {
+              "top": 1601,
+              "bottom": 1621,
+              "left": 0,
+              "right": 27,
+              "width": 27,
+              "height": 20
+            },
+            "snippet": "<a class=\"back-to-top\" href=\"#page-header\" style=\"display: inline; opacity: 0.0149367;\">",
+            "nodeLabel": "Top",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.04 (foreground color: #305078, background color: #2d4d76, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "11-183-DIV",
+                  "path": "1,HTML,1,BODY,1,DIV",
+                  "selector": "body.html > div.jPanelMenu-panel",
+                  "boundingRect": {
+                    "top": 0,
+                    "bottom": 1622,
+                    "left": 0,
+                    "right": 412,
+                    "width": 412,
+                    "height": 1622
+                  },
+                  "snippet": "<div class=\"jPanelMenu-panel\" style=\"position: static; transform: translate3d(0%, 0px, 0px);\">",
+                  "nodeLabel": "Top\nSkip to main content\nThe U.S. National Archives Home\nMenu\nSearch\nSearch\n\nAb…"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.color",
+          "wcag2aa",
+          "wcag143"
+        ]
+      }
+    },
+    "errorCount": 2
+  },
+  {
+    "id": "list",
+    "title": "Lists do not contain only `<li>` elements and script supporting elements (`<script>` and `<template>`).",
+    "description": "Screen readers have a specific way of announcing lists. Ensuring proper list structure aids screen reader output. [Learn more](https://web.dev/list/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-184-UL",
+            "path": "1,HTML,1,BODY,1,DIV,1,DIV,0,DIV,2,DIV,4,DIV,0,DIV,1,DIV,1,DIV,1,DIV,0,SECTION,3,UL",
+            "selector": "div#main-col > div.region > section#block-system-main > ul",
+            "boundingRect": {
+              "top": 583,
+              "bottom": 627,
+              "left": 15,
+              "right": 397,
+              "width": 382,
+              "height": 44
+            },
+            "snippet": "<ul dir=\"ltr\">",
+            "nodeLabel": "Please provide feedback by email: strategy@nara.gov",
+            "explanation": "Fix all of the following:\n  List element has direct children with a role that is not allowed: presentation"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "11-185-LI",
+                  "path": "1,HTML,1,BODY,1,DIV,1,DIV,0,DIV,2,DIV,4,DIV,0,DIV,1,DIV,1,DIV,1,DIV,0,SECTION,3,UL,0,LI",
+                  "selector": "div.region > section#block-system-main > ul > li",
+                  "boundingRect": {
+                    "top": 583,
+                    "bottom": 627,
+                    "left": 15,
+                    "right": 397,
+                    "width": 382,
+                    "height": 44
+                  },
+                  "snippet": "<li role=\"presentation\">",
+                  "nodeLabel": "Please provide feedback by email: strategy@nara.gov"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.structure",
+          "wcag2a",
+          "wcag131"
+        ]
+      }
+    },
+    "errorCount": 1
+  }
+]
