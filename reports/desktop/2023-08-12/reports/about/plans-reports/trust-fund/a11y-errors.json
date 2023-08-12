@@ -1,0 +1,115 @@
+[
+  {
+    "id": "link-name",
+    "title": "Links do not have a discernible name",
+    "description": "Link text (and alternate text for images, when used as links) that is discernible, unique, and focusable improves the navigation experience for screen reader users. [Learn more](https://web.dev/link-name/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-38-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,4,DIV,0,DIV,1,DIV,1,DIV,1,DIV,0,SECTION,10,P,0,A",
+            "selector": "div.region > section#block-system-main > p#shared- > a.noDocIcon",
+            "boundingRect": {
+              "top": 757,
+              "bottom": 777,
+              "left": 358,
+              "right": 358,
+              "width": 0,
+              "height": 20
+            },
+            "snippet": "<a href=\"/files/about/plans-reports/trust-fund/2021-trust-fund-annual-report.pdf\" class=\"noDocIcon\">",
+            "nodeLabel": "div.region > section#block-system-main > p#shared- > a.noDocIcon",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-40-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,4,DIV,0,DIV,1,DIV,1,DIV,1,DIV,0,SECTION,16,P,0,A",
+            "selector": "div.region > section#block-system-main > p#shared- > a.noDocIcon",
+            "boundingRect": {
+              "top": 1032,
+              "bottom": 1052,
+              "left": 358,
+              "right": 358,
+              "width": 0,
+              "height": 20
+            },
+            "snippet": "<a href=\"/files/about/plans-reports/trust-fund/2019-trust-fund-annual-report.pdf\" class=\"noDocIcon\">",
+            "nodeLabel": "div.region > section#block-system-main > p#shared- > a.noDocIcon",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-42-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,4,DIV,0,DIV,1,DIV,1,DIV,1,DIV,0,SECTION,21,P,0,A",
+            "selector": "div.region > section#block-system-main > p#shared- > a.noDocIcon",
+            "boundingRect": {
+              "top": 1273,
+              "bottom": 1293,
+              "left": 358,
+              "right": 358,
+              "width": 0,
+              "height": 20
+            },
+            "snippet": "<a href=\"/files/about/plans-reports/trust-fund/2018-trust-fund-report.pdf\" class=\"noDocIcon\">",
+            "nodeLabel": "div.region > section#block-system-main > p#shared- > a.noDocIcon",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-44-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,4,DIV,0,DIV,1,DIV,1,DIV,1,DIV,0,SECTION,26,P,0,A",
+            "selector": "div.region > section#block-system-main > p#shared- > a.noDocIcon",
+            "boundingRect": {
+              "top": 1515,
+              "bottom": 1535,
+              "left": 358,
+              "right": 358,
+              "width": 0,
+              "height": 20
+            },
+            "snippet": "<a href=\"/files/about/plans-reports/trust-fund/2017-annual-report.pdf\" class=\"noDocIcon\">",
+            "nodeLabel": "div.region > section#block-system-main > p#shared- > a.noDocIcon",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.name-role-value",
+          "wcag2a",
+          "wcag412",
+          "wcag244",
+          "section508",
+          "section508.22.a",
+          "ACT"
+        ]
+      }
+    },
+    "errorCount": 4
+  }
+]
