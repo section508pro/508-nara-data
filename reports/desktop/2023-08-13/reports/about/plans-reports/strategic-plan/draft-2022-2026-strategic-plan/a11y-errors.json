@@ -1,0 +1,77 @@
+[
+  {
+    "id": "list",
+    "title": "Lists do not contain only `<li>` elements and script supporting elements (`<script>` and `<template>`).",
+    "description": "Screen readers have a specific way of announcing lists. Ensuring proper list structure aids screen reader output. [Learn more](https://web.dev/list/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-167-UL",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,4,DIV,0,DIV,1,DIV,1,DIV,1,DIV,0,SECTION,3,UL",
+            "selector": "div#main-col > div.region > section#block-system-main > ul",
+            "boundingRect": {
+              "top": 486,
+              "bottom": 511,
+              "left": 240,
+              "right": 998,
+              "width": 758,
+              "height": 25
+            },
+            "snippet": "<ul dir=\"ltr\">",
+            "nodeLabel": "Please provide feedback by email: strategy@nara.gov",
+            "explanation": "Fix all of the following:\n  List element has direct children with a role that is not allowed: presentation"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "11-168-LI",
+                  "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,4,DIV,0,DIV,1,DIV,1,DIV,1,DIV,0,SECTION,3,UL,0,LI",
+                  "selector": "div.region > section#block-system-main > ul > li",
+                  "boundingRect": {
+                    "top": 486,
+                    "bottom": 511,
+                    "left": 240,
+                    "right": 998,
+                    "width": 758,
+                    "height": 25
+                  },
+                  "snippet": "<li role=\"presentation\">",
+                  "nodeLabel": "Please provide feedback by email: strategy@nara.gov"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.structure",
+          "wcag2a",
+          "wcag131"
+        ]
+      }
+    },
+    "errorCount": 1
+  }
+]
