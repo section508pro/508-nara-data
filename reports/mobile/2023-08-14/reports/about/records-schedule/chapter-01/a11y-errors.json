@@ -1,0 +1,175 @@
+[
+  {
+    "id": "color-contrast",
+    "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+    "description": "Low-contrast text is difficult or impossible for many users to read. [Learn more](https://web.dev/color-contrast/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-0-A",
+            "path": "1,HTML,1,BODY,1,DIV,1,DIV,0,DIV,0,A",
+            "selector": "div.jPanelMenu-panel > div#background-gradient > div.wrapper > a.back-to-top",
+            "boundingRect": {
+              "top": 1,
+              "bottom": 21,
+              "left": 0,
+              "right": 27,
+              "width": 27,
+              "height": 20
+            },
+            "snippet": "<a class=\"back-to-top\" href=\"#page-header\" style=\"opacity: 0.0264508;\">",
+            "nodeLabel": "Top",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.07 (foreground color: #33527a, background color: #2d4d76, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "11-349-DIV",
+                  "path": "1,HTML,1,BODY,1,DIV",
+                  "selector": "body.html > div.jPanelMenu-panel",
+                  "boundingRect": {
+                    "top": 0,
+                    "bottom": 57022,
+                    "left": 0,
+                    "right": 412,
+                    "width": 412,
+                    "height": 57022
+                  },
+                  "snippet": "<div class=\"jPanelMenu-panel\" style=\"position: static; transform: translate3d(0%, 0px, 0px);\">",
+                  "nodeLabel": "Top\nSkip to main content\nThe U.S. National Archives Home\nMenu\nSearch\nSearch\n\nAb…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-292-A",
+            "path": "1,HTML,1,BODY,1,DIV,1,DIV,1,A",
+            "selector": "body.html > div.jPanelMenu-panel > div#background-gradient > a.back-to-top",
+            "boundingRect": {
+              "top": 57000,
+              "bottom": 57020,
+              "left": 0,
+              "right": 27,
+              "width": 27,
+              "height": 20
+            },
+            "snippet": "<a class=\"back-to-top\" href=\"#page-header\" style=\"display: inline; opacity: 0.0264508;\">",
+            "nodeLabel": "Top",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.07 (foreground color: #33527a, background color: #2d4d76, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "11-349-DIV",
+                  "path": "1,HTML,1,BODY,1,DIV",
+                  "selector": "body.html > div.jPanelMenu-panel",
+                  "boundingRect": {
+                    "top": 0,
+                    "bottom": 57022,
+                    "left": 0,
+                    "right": 412,
+                    "width": 412,
+                    "height": 57022
+                  },
+                  "snippet": "<div class=\"jPanelMenu-panel\" style=\"position: static; transform: translate3d(0%, 0px, 0px);\">",
+                  "nodeLabel": "Top\nSkip to main content\nThe U.S. National Archives Home\nMenu\nSearch\nSearch\n\nAb…"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.color",
+          "wcag2aa",
+          "wcag143"
+        ]
+      }
+    },
+    "errorCount": 2
+  },
+  {
+    "id": "label",
+    "title": "Form elements do not have associated labels",
+    "description": "Labels ensure that form controls are announced properly by assistive technologies, like screen readers. [Learn more](https://web.dev/label/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-347-INPUT",
+            "path": "1,HTML,1,BODY,1,DIV,1,DIV,0,DIV,2,DIV,4,DIV,0,DIV,1,DIV,1,DIV,1,DIV,0,SECTION,2,DIV,0,DIV,1,DIV,1,DIV,1,DIV,0,FORM,3,DIV,0,INPUT",
+            "selector": "div#rg-search-sidebar > form#search_form > div.form-group > input#go-to-rg-menu",
+            "boundingRect": {
+              "top": 436,
+              "bottom": 458,
+              "left": 31,
+              "right": 381,
+              "width": 350,
+              "height": 22
+            },
+            "snippet": "<input class=\"form-control smaller\" id=\"go-to-rg-menu\" name=\"query\" type=\"text\">",
+            "nodeLabel": "div#rg-search-sidebar > form#search_form > div.form-group > input#go-to-rg-menu",
+            "explanation": "Fix any of the following:\n  Form element does not have an implicit (wrapped) <label>\n  Form element does not have an explicit <label>\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element has no placeholder attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "critical",
+        "tags": [
+          "cat.forms",
+          "wcag2a",
+          "wcag412",
+          "wcag131",
+          "section508",
+          "section508.22.n",
+          "ACT"
+        ]
+      }
+    },
+    "errorCount": 1
+  }
+]
