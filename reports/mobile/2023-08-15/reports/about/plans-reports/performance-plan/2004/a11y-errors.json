@@ -1,0 +1,611 @@
+[
+  {
+    "id": "color-contrast",
+    "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+    "description": "Low-contrast text is difficult or impossible for many users to read. [Learn more](https://web.dev/color-contrast/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-0-A",
+            "path": "1,HTML,1,BODY,1,DIV,1,DIV,0,DIV,0,A",
+            "selector": "div.jPanelMenu-panel > div#background-gradient > div.wrapper > a.back-to-top",
+            "boundingRect": {
+              "top": 1,
+              "bottom": 21,
+              "left": 0,
+              "right": 27,
+              "width": 27,
+              "height": 20
+            },
+            "snippet": "<a class=\"back-to-top\" href=\"#page-header\" style=\"opacity: 0.00665703;\">",
+            "nodeLabel": "Top",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.01 (foreground color: #2e4e77, background color: #2d4d76, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "11-259-DIV",
+                  "path": "1,HTML,1,BODY,1,DIV",
+                  "selector": "body.html > div.jPanelMenu-panel",
+                  "boundingRect": {
+                    "top": 0,
+                    "bottom": 113351,
+                    "left": 0,
+                    "right": 412,
+                    "width": 412,
+                    "height": 113351
+                  },
+                  "snippet": "<div class=\"jPanelMenu-panel\" style=\"position: static; transform: translate3d(0%, 0px, 0px);\">",
+                  "nodeLabel": "Top\nSkip to main content\nThe U.S. National Archives Home\nMenu\nSearch\nSearch\n\nAb…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-183-A",
+            "path": "1,HTML,1,BODY,1,DIV,1,DIV,1,A",
+            "selector": "body.html > div.jPanelMenu-panel > div#background-gradient > a.back-to-top",
+            "boundingRect": {
+              "top": 113330,
+              "bottom": 113350,
+              "left": 0,
+              "right": 27,
+              "width": 27,
+              "height": 20
+            },
+            "snippet": "<a class=\"back-to-top\" href=\"#page-header\" style=\"display: inline; opacity: 0.00665703;\">",
+            "nodeLabel": "Top",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.01 (foreground color: #2e4e77, background color: #2d4d76, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "11-259-DIV",
+                  "path": "1,HTML,1,BODY,1,DIV",
+                  "selector": "body.html > div.jPanelMenu-panel",
+                  "boundingRect": {
+                    "top": 0,
+                    "bottom": 113351,
+                    "left": 0,
+                    "right": 412,
+                    "width": 412,
+                    "height": 113351
+                  },
+                  "snippet": "<div class=\"jPanelMenu-panel\" style=\"position: static; transform: translate3d(0%, 0px, 0px);\">",
+                  "nodeLabel": "Top\nSkip to main content\nThe U.S. National Archives Home\nMenu\nSearch\nSearch\n\nAb…"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.color",
+          "wcag2aa",
+          "wcag143"
+        ]
+      }
+    },
+    "errorCount": 2
+  },
+  {
+    "id": "image-alt",
+    "title": "Image elements do not have `[alt]` attributes",
+    "description": "Informative elements should aim for short, descriptive alternate text. Decorative elements can be ignored with an empty alt attribute. [Learn more](https://web.dev/image-alt/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-260-IMG",
+            "path": "1,HTML,1,BODY,1,DIV,1,DIV,0,DIV,2,DIV,4,DIV,0,DIV,1,DIV,1,DIV,1,DIV,0,SECTION,412,DIV,0,DIV,0,TABLE,0,TBODY,10,TR,1,TD,0,IMG",
+            "selector": "tbody > tr > td > img",
+            "boundingRect": {
+              "top": 102980,
+              "bottom": 102994,
+              "left": 163,
+              "right": 175,
+              "width": 12,
+              "height": 14
+            },
+            "snippet": "<img src=\"/files/about/plans-reports/strategic-plan/images/checkmark.gif\" alt=\" \">",
+            "nodeLabel": " ",
+            "explanation": "Fix all of the following:\n  Element has an alt attribute containing only a space character, which is not ignored by all screen readers"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-261-IMG",
+            "path": "1,HTML,1,BODY,1,DIV,1,DIV,0,DIV,2,DIV,4,DIV,0,DIV,1,DIV,1,DIV,1,DIV,0,SECTION,412,DIV,0,DIV,0,TABLE,0,TBODY,10,TR,2,TD,0,IMG",
+            "selector": "tbody > tr > td > img",
+            "boundingRect": {
+              "top": 102980,
+              "bottom": 102994,
+              "left": 211,
+              "right": 223,
+              "width": 12,
+              "height": 14
+            },
+            "snippet": "<img src=\"/files/about/plans-reports/strategic-plan/images/checkmark.gif\" alt=\" \">",
+            "nodeLabel": " ",
+            "explanation": "Fix all of the following:\n  Element has an alt attribute containing only a space character, which is not ignored by all screen readers"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-262-IMG",
+            "path": "1,HTML,1,BODY,1,DIV,1,DIV,0,DIV,2,DIV,4,DIV,0,DIV,1,DIV,1,DIV,1,DIV,0,SECTION,412,DIV,0,DIV,0,TABLE,0,TBODY,10,TR,3,TD,0,IMG",
+            "selector": "tbody > tr > td > img",
+            "boundingRect": {
+              "top": 102980,
+              "bottom": 102994,
+              "left": 259,
+              "right": 271,
+              "width": 12,
+              "height": 14
+            },
+            "snippet": "<img src=\"/files/about/plans-reports/strategic-plan/images/checkmark.gif\" alt=\" \">",
+            "nodeLabel": " ",
+            "explanation": "Fix all of the following:\n  Element has an alt attribute containing only a space character, which is not ignored by all screen readers"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-263-IMG",
+            "path": "1,HTML,1,BODY,1,DIV,1,DIV,0,DIV,2,DIV,4,DIV,0,DIV,1,DIV,1,DIV,1,DIV,0,SECTION,412,DIV,0,DIV,0,TABLE,0,TBODY,10,TR,4,TD,0,IMG",
+            "selector": "tbody > tr > td > img",
+            "boundingRect": {
+              "top": 102980,
+              "bottom": 102994,
+              "left": 307,
+              "right": 319,
+              "width": 12,
+              "height": 14
+            },
+            "snippet": "<img src=\"/files/about/plans-reports/strategic-plan/images/checkmark.gif\" alt=\" \">",
+            "nodeLabel": " ",
+            "explanation": "Fix all of the following:\n  Element has an alt attribute containing only a space character, which is not ignored by all screen readers"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-264-IMG",
+            "path": "1,HTML,1,BODY,1,DIV,1,DIV,0,DIV,2,DIV,4,DIV,0,DIV,1,DIV,1,DIV,1,DIV,0,SECTION,412,DIV,0,DIV,0,TABLE,0,TBODY,10,TR,5,TD,0,IMG",
+            "selector": "tbody > tr > td > img",
+            "boundingRect": {
+              "top": 102980,
+              "bottom": 102994,
+              "left": 359,
+              "right": 371,
+              "width": 12,
+              "height": 14
+            },
+            "snippet": "<img src=\"/files/about/plans-reports/strategic-plan/images/checkmark.gif\" alt=\" \">",
+            "nodeLabel": " ",
+            "explanation": "Fix all of the following:\n  Element has an alt attribute containing only a space character, which is not ignored by all screen readers"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-265-IMG",
+            "path": "1,HTML,1,BODY,1,DIV,1,DIV,0,DIV,2,DIV,4,DIV,0,DIV,1,DIV,1,DIV,1,DIV,0,SECTION,412,DIV,0,DIV,0,TABLE,0,TBODY,11,TR,1,TD,0,IMG",
+            "selector": "tbody > tr > td > img",
+            "boundingRect": {
+              "top": 103019,
+              "bottom": 103033,
+              "left": 163,
+              "right": 175,
+              "width": 12,
+              "height": 14
+            },
+            "snippet": "<img src=\"/files/about/plans-reports/strategic-plan/images/checkmark.gif\" alt=\" \">",
+            "nodeLabel": " ",
+            "explanation": "Fix all of the following:\n  Element has an alt attribute containing only a space character, which is not ignored by all screen readers"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-266-IMG",
+            "path": "1,HTML,1,BODY,1,DIV,1,DIV,0,DIV,2,DIV,4,DIV,0,DIV,1,DIV,1,DIV,1,DIV,0,SECTION,412,DIV,0,DIV,0,TABLE,0,TBODY,11,TR,2,TD,0,IMG",
+            "selector": "tbody > tr > td > img",
+            "boundingRect": {
+              "top": 103019,
+              "bottom": 103033,
+              "left": 211,
+              "right": 223,
+              "width": 12,
+              "height": 14
+            },
+            "snippet": "<img src=\"/files/about/plans-reports/strategic-plan/images/checkmark.gif\" alt=\" \">",
+            "nodeLabel": " ",
+            "explanation": "Fix all of the following:\n  Element has an alt attribute containing only a space character, which is not ignored by all screen readers"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-267-IMG",
+            "path": "1,HTML,1,BODY,1,DIV,1,DIV,0,DIV,2,DIV,4,DIV,0,DIV,1,DIV,1,DIV,1,DIV,0,SECTION,412,DIV,0,DIV,0,TABLE,0,TBODY,11,TR,3,TD,0,IMG",
+            "selector": "tbody > tr > td > img",
+            "boundingRect": {
+              "top": 103019,
+              "bottom": 103033,
+              "left": 259,
+              "right": 271,
+              "width": 12,
+              "height": 14
+            },
+            "snippet": "<img src=\"/files/about/plans-reports/strategic-plan/images/checkmark.gif\" alt=\" \">",
+            "nodeLabel": " ",
+            "explanation": "Fix all of the following:\n  Element has an alt attribute containing only a space character, which is not ignored by all screen readers"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-268-IMG",
+            "path": "1,HTML,1,BODY,1,DIV,1,DIV,0,DIV,2,DIV,4,DIV,0,DIV,1,DIV,1,DIV,1,DIV,0,SECTION,412,DIV,0,DIV,0,TABLE,0,TBODY,11,TR,4,TD,0,IMG",
+            "selector": "tbody > tr > td > img",
+            "boundingRect": {
+              "top": 103019,
+              "bottom": 103033,
+              "left": 307,
+              "right": 319,
+              "width": 12,
+              "height": 14
+            },
+            "snippet": "<img src=\"/files/about/plans-reports/strategic-plan/images/checkmark.gif\" alt=\" \">",
+            "nodeLabel": " ",
+            "explanation": "Fix all of the following:\n  Element has an alt attribute containing only a space character, which is not ignored by all screen readers"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-269-IMG",
+            "path": "1,HTML,1,BODY,1,DIV,1,DIV,0,DIV,2,DIV,4,DIV,0,DIV,1,DIV,1,DIV,1,DIV,0,SECTION,412,DIV,0,DIV,0,TABLE,0,TBODY,11,TR,5,TD,0,IMG",
+            "selector": "tbody > tr > td > img",
+            "boundingRect": {
+              "top": 103019,
+              "bottom": 103033,
+              "left": 359,
+              "right": 371,
+              "width": 12,
+              "height": 14
+            },
+            "snippet": "<img src=\"/files/about/plans-reports/strategic-plan/images/checkmark.gif\" alt=\" \">",
+            "nodeLabel": " ",
+            "explanation": "Fix all of the following:\n  Element has an alt attribute containing only a space character, which is not ignored by all screen readers"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-270-IMG",
+            "path": "1,HTML,1,BODY,1,DIV,1,DIV,0,DIV,2,DIV,4,DIV,0,DIV,1,DIV,1,DIV,1,DIV,0,SECTION,412,DIV,0,DIV,0,TABLE,0,TBODY,13,TR,1,TD,0,IMG",
+            "selector": "tbody > tr > td > img",
+            "boundingRect": {
+              "top": 103096,
+              "bottom": 103110,
+              "left": 163,
+              "right": 175,
+              "width": 12,
+              "height": 14
+            },
+            "snippet": "<img src=\"/files/about/plans-reports/strategic-plan/images/checkmark.gif\" alt=\" \">",
+            "nodeLabel": " ",
+            "explanation": "Fix all of the following:\n  Element has an alt attribute containing only a space character, which is not ignored by all screen readers"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-271-IMG",
+            "path": "1,HTML,1,BODY,1,DIV,1,DIV,0,DIV,2,DIV,4,DIV,0,DIV,1,DIV,1,DIV,1,DIV,0,SECTION,412,DIV,0,DIV,0,TABLE,0,TBODY,13,TR,2,TD,0,IMG",
+            "selector": "tbody > tr > td > img",
+            "boundingRect": {
+              "top": 103096,
+              "bottom": 103110,
+              "left": 211,
+              "right": 223,
+              "width": 12,
+              "height": 14
+            },
+            "snippet": "<img src=\"/files/about/plans-reports/strategic-plan/images/checkmark.gif\" alt=\" \">",
+            "nodeLabel": " ",
+            "explanation": "Fix all of the following:\n  Element has an alt attribute containing only a space character, which is not ignored by all screen readers"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-272-IMG",
+            "path": "1,HTML,1,BODY,1,DIV,1,DIV,0,DIV,2,DIV,4,DIV,0,DIV,1,DIV,1,DIV,1,DIV,0,SECTION,412,DIV,0,DIV,0,TABLE,0,TBODY,13,TR,3,TD,0,IMG",
+            "selector": "tbody > tr > td > img",
+            "boundingRect": {
+              "top": 103096,
+              "bottom": 103110,
+              "left": 259,
+              "right": 271,
+              "width": 12,
+              "height": 14
+            },
+            "snippet": "<img src=\"/files/about/plans-reports/strategic-plan/images/checkmark.gif\" alt=\" \">",
+            "nodeLabel": " ",
+            "explanation": "Fix all of the following:\n  Element has an alt attribute containing only a space character, which is not ignored by all screen readers"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-273-IMG",
+            "path": "1,HTML,1,BODY,1,DIV,1,DIV,0,DIV,2,DIV,4,DIV,0,DIV,1,DIV,1,DIV,1,DIV,0,SECTION,412,DIV,0,DIV,0,TABLE,0,TBODY,13,TR,4,TD,0,IMG",
+            "selector": "tbody > tr > td > img",
+            "boundingRect": {
+              "top": 103096,
+              "bottom": 103110,
+              "left": 307,
+              "right": 319,
+              "width": 12,
+              "height": 14
+            },
+            "snippet": "<img src=\"/files/about/plans-reports/strategic-plan/images/checkmark.gif\" alt=\" \">",
+            "nodeLabel": " ",
+            "explanation": "Fix all of the following:\n  Element has an alt attribute containing only a space character, which is not ignored by all screen readers"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-274-IMG",
+            "path": "1,HTML,1,BODY,1,DIV,1,DIV,0,DIV,2,DIV,4,DIV,0,DIV,1,DIV,1,DIV,1,DIV,0,SECTION,412,DIV,0,DIV,0,TABLE,0,TBODY,13,TR,5,TD,0,IMG",
+            "selector": "tbody > tr > td > img",
+            "boundingRect": {
+              "top": 103096,
+              "bottom": 103110,
+              "left": 359,
+              "right": 371,
+              "width": 12,
+              "height": 14
+            },
+            "snippet": "<img src=\"/files/about/plans-reports/strategic-plan/images/checkmark.gif\" alt=\" \">",
+            "nodeLabel": " ",
+            "explanation": "Fix all of the following:\n  Element has an alt attribute containing only a space character, which is not ignored by all screen readers"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-275-IMG",
+            "path": "1,HTML,1,BODY,1,DIV,1,DIV,0,DIV,2,DIV,4,DIV,0,DIV,1,DIV,1,DIV,1,DIV,0,SECTION,412,DIV,0,DIV,0,TABLE,0,TBODY,14,TR,1,TD,0,IMG",
+            "selector": "tbody > tr > td > img",
+            "boundingRect": {
+              "top": 103181,
+              "bottom": 103195,
+              "left": 163,
+              "right": 175,
+              "width": 12,
+              "height": 14
+            },
+            "snippet": "<img src=\"/files/about/plans-reports/strategic-plan/images/checkmark.gif\" alt=\" \">",
+            "nodeLabel": " ",
+            "explanation": "Fix all of the following:\n  Element has an alt attribute containing only a space character, which is not ignored by all screen readers"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-276-IMG",
+            "path": "1,HTML,1,BODY,1,DIV,1,DIV,0,DIV,2,DIV,4,DIV,0,DIV,1,DIV,1,DIV,1,DIV,0,SECTION,412,DIV,0,DIV,0,TABLE,0,TBODY,14,TR,2,TD,0,IMG",
+            "selector": "tbody > tr > td > img",
+            "boundingRect": {
+              "top": 103181,
+              "bottom": 103195,
+              "left": 211,
+              "right": 223,
+              "width": 12,
+              "height": 14
+            },
+            "snippet": "<img src=\"/files/about/plans-reports/strategic-plan/images/checkmark.gif\" alt=\" \">",
+            "nodeLabel": " ",
+            "explanation": "Fix all of the following:\n  Element has an alt attribute containing only a space character, which is not ignored by all screen readers"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-277-IMG",
+            "path": "1,HTML,1,BODY,1,DIV,1,DIV,0,DIV,2,DIV,4,DIV,0,DIV,1,DIV,1,DIV,1,DIV,0,SECTION,412,DIV,0,DIV,0,TABLE,0,TBODY,14,TR,4,TD,0,IMG",
+            "selector": "tbody > tr > td > img",
+            "boundingRect": {
+              "top": 103181,
+              "bottom": 103195,
+              "left": 307,
+              "right": 319,
+              "width": 12,
+              "height": 14
+            },
+            "snippet": "<img src=\"/files/about/plans-reports/strategic-plan/images/checkmark.gif\" alt=\" \">",
+            "nodeLabel": " ",
+            "explanation": "Fix all of the following:\n  Element has an alt attribute containing only a space character, which is not ignored by all screen readers"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-278-IMG",
+            "path": "1,HTML,1,BODY,1,DIV,1,DIV,0,DIV,2,DIV,4,DIV,0,DIV,1,DIV,1,DIV,1,DIV,0,SECTION,412,DIV,0,DIV,0,TABLE,0,TBODY,14,TR,5,TD,0,IMG",
+            "selector": "tbody > tr > td > img",
+            "boundingRect": {
+              "top": 103181,
+              "bottom": 103195,
+              "left": 359,
+              "right": 371,
+              "width": 12,
+              "height": 14
+            },
+            "snippet": "<img src=\"/files/about/plans-reports/strategic-plan/images/checkmark.gif\" alt=\" \">",
+            "nodeLabel": " ",
+            "explanation": "Fix all of the following:\n  Element has an alt attribute containing only a space character, which is not ignored by all screen readers"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-279-IMG",
+            "path": "1,HTML,1,BODY,1,DIV,1,DIV,0,DIV,2,DIV,4,DIV,0,DIV,1,DIV,1,DIV,1,DIV,0,SECTION,412,DIV,0,DIV,0,TABLE,0,TBODY,15,TR,1,TD,0,IMG",
+            "selector": "tbody > tr > td > img",
+            "boundingRect": {
+              "top": 103265,
+              "bottom": 103279,
+              "left": 163,
+              "right": 175,
+              "width": 12,
+              "height": 14
+            },
+            "snippet": "<img src=\"/files/about/plans-reports/strategic-plan/images/checkmark.gif\" alt=\" \">",
+            "nodeLabel": " ",
+            "explanation": "Fix all of the following:\n  Element has an alt attribute containing only a space character, which is not ignored by all screen readers"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-280-IMG",
+            "path": "1,HTML,1,BODY,1,DIV,1,DIV,0,DIV,2,DIV,4,DIV,0,DIV,1,DIV,1,DIV,1,DIV,0,SECTION,412,DIV,0,DIV,0,TABLE,0,TBODY,15,TR,2,TD,0,IMG",
+            "selector": "tbody > tr > td > img",
+            "boundingRect": {
+              "top": 103265,
+              "bottom": 103279,
+              "left": 211,
+              "right": 223,
+              "width": 12,
+              "height": 14
+            },
+            "snippet": "<img src=\"/files/about/plans-reports/strategic-plan/images/checkmark.gif\" alt=\" \">",
+            "nodeLabel": " ",
+            "explanation": "Fix all of the following:\n  Element has an alt attribute containing only a space character, which is not ignored by all screen readers"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-281-IMG",
+            "path": "1,HTML,1,BODY,1,DIV,1,DIV,0,DIV,2,DIV,4,DIV,0,DIV,1,DIV,1,DIV,1,DIV,0,SECTION,412,DIV,0,DIV,0,TABLE,0,TBODY,15,TR,3,TD,0,IMG",
+            "selector": "tbody > tr > td > img",
+            "boundingRect": {
+              "top": 103265,
+              "bottom": 103279,
+              "left": 259,
+              "right": 271,
+              "width": 12,
+              "height": 14
+            },
+            "snippet": "<img src=\"/files/about/plans-reports/strategic-plan/images/checkmark.gif\" alt=\" \">",
+            "nodeLabel": " ",
+            "explanation": "Fix all of the following:\n  Element has an alt attribute containing only a space character, which is not ignored by all screen readers"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-282-IMG",
+            "path": "1,HTML,1,BODY,1,DIV,1,DIV,0,DIV,2,DIV,4,DIV,0,DIV,1,DIV,1,DIV,1,DIV,0,SECTION,412,DIV,0,DIV,0,TABLE,0,TBODY,15,TR,4,TD,0,IMG",
+            "selector": "tbody > tr > td > img",
+            "boundingRect": {
+              "top": 103265,
+              "bottom": 103279,
+              "left": 307,
+              "right": 319,
+              "width": 12,
+              "height": 14
+            },
+            "snippet": "<img src=\"/files/about/plans-reports/strategic-plan/images/checkmark.gif\" alt=\" \">",
+            "nodeLabel": " ",
+            "explanation": "Fix all of the following:\n  Element has an alt attribute containing only a space character, which is not ignored by all screen readers"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-283-IMG",
+            "path": "1,HTML,1,BODY,1,DIV,1,DIV,0,DIV,2,DIV,4,DIV,0,DIV,1,DIV,1,DIV,1,DIV,0,SECTION,412,DIV,0,DIV,0,TABLE,0,TBODY,15,TR,5,TD,0,IMG",
+            "selector": "tbody > tr > td > img",
+            "boundingRect": {
+              "top": 103265,
+              "bottom": 103279,
+              "left": 359,
+              "right": 371,
+              "width": 12,
+              "height": 14
+            },
+            "snippet": "<img src=\"/files/about/plans-reports/strategic-plan/images/checkmark.gif\" alt=\" \">",
+            "nodeLabel": " ",
+            "explanation": "Fix all of the following:\n  Element has an alt attribute containing only a space character, which is not ignored by all screen readers"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "critical",
+        "tags": [
+          "cat.text-alternatives",
+          "wcag2a",
+          "wcag111",
+          "section508",
+          "section508.22.a",
+          "ACT"
+        ]
+      }
+    },
+    "errorCount": 24
+  }
+]
