@@ -1,0 +1,113 @@
+[
+  {
+    "id": "list",
+    "title": "Lists do not contain only `<li>` elements and script supporting elements (`<script>` and `<template>`).",
+    "description": "Screen readers have a specific way of announcing lists. Ensuring proper list structure aids screen reader output. [Learn more](https://web.dev/list/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-165-UL",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,4,DIV,0,DIV,1,DIV,1,DIV,1,DIV,0,SECTION,3,UL",
+            "selector": "div#main-col > div.region > section#block-system-main > ul.lines",
+            "boundingRect": {
+              "top": 511,
+              "bottom": 605,
+              "left": 240,
+              "right": 1335,
+              "width": 1095,
+              "height": 94
+            },
+            "snippet": "<ul class=\"lines noBullet\">",
+            "nodeLabel": " PDF Version \n\n\n\n\n",
+            "explanation": "Fix all of the following:\n  List element has direct children that are not allowed inside <li> elements"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "11-166-BR",
+                  "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,4,DIV,0,DIV,1,DIV,1,DIV,1,DIV,0,SECTION,3,UL,1,BR",
+                  "selector": "div.region > section#block-system-main > ul.lines > br",
+                  "boundingRect": {
+                    "top": 538,
+                    "bottom": 558,
+                    "left": 240,
+                    "right": 240,
+                    "width": 0,
+                    "height": 20
+                  },
+                  "snippet": "<br>",
+                  "nodeLabel": "div.region > section#block-system-main > ul.lines > br"
+                }
+              },
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "11-167-BR",
+                  "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,4,DIV,0,DIV,1,DIV,1,DIV,1,DIV,0,SECTION,3,UL,2,BR",
+                  "selector": "div.region > section#block-system-main > ul.lines > br",
+                  "boundingRect": {
+                    "top": 560,
+                    "bottom": 580,
+                    "left": 240,
+                    "right": 240,
+                    "width": 0,
+                    "height": 20
+                  },
+                  "snippet": "<br>",
+                  "nodeLabel": "div.region > section#block-system-main > ul.lines > br"
+                }
+              },
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "11-168-BR",
+                  "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,4,DIV,0,DIV,1,DIV,1,DIV,1,DIV,0,SECTION,3,UL,3,BR",
+                  "selector": "div.region > section#block-system-main > ul.lines > br",
+                  "boundingRect": {
+                    "top": 583,
+                    "bottom": 603,
+                    "left": 240,
+                    "right": 240,
+                    "width": 0,
+                    "height": 20
+                  },
+                  "snippet": "<br>",
+                  "nodeLabel": "div.region > section#block-system-main > ul.lines > br"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.structure",
+          "wcag2a",
+          "wcag131"
+        ]
+      }
+    },
+    "errorCount": 1
+  }
+]
