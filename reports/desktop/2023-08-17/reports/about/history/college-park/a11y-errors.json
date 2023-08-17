@@ -1,0 +1,228 @@
+[
+  {
+    "id": "aria-input-field-name",
+    "title": "ARIA input fields do not have accessible names",
+    "description": "When an input field doesn't have an accessible name, screen readers announce it with a generic name, making it unusable for users who rely on screen readers. [Learn more](https://web.dev/aria-name/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "19-167-DIV",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,4,DIV,0,DIV,1,DIV,1,DIV,1,DIV,0,SECTION,2,DIV,1,DIV,4,DIV,6,DIV,1,DIV,0,DIV,0,DIV,2,DIV",
+            "selector": "div.dynamic-widget > div#blockslideshow_650321885166118 > div#slideshow_650321885166118 > div.carousel-inner",
+            "boundingRect": {
+              "top": 3279,
+              "bottom": 3501,
+              "left": 986,
+              "right": 1319,
+              "width": 333,
+              "height": 222
+            },
+            "snippet": "<div class=\"carousel-inner\" role=\"listbox\">",
+            "nodeLabel": "Slideshow background image",
+            "explanation": "Fix any of the following:\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.aria",
+          "wcag2a",
+          "wcag412",
+          "ACT"
+        ]
+      }
+    },
+    "errorCount": 1
+  },
+  {
+    "id": "aria-required-children",
+    "title": "Elements with an ARIA `[role]` that require children to contain a specific `[role]` are missing some or all of those required children.",
+    "description": "Some ARIA parent roles must contain specific child roles to perform their intended accessibility functions. [Learn more](https://web.dev/aria-required-children/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "19-167-DIV",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,4,DIV,0,DIV,1,DIV,1,DIV,1,DIV,0,SECTION,2,DIV,1,DIV,4,DIV,6,DIV,1,DIV,0,DIV,0,DIV,2,DIV",
+            "selector": "div.dynamic-widget > div#blockslideshow_650321885166118 > div#slideshow_650321885166118 > div.carousel-inner",
+            "boundingRect": {
+              "top": 3279,
+              "bottom": 3501,
+              "left": 986,
+              "right": 1319,
+              "width": 333,
+              "height": 222
+            },
+            "snippet": "<div class=\"carousel-inner\" role=\"listbox\">",
+            "nodeLabel": "Slideshow background image",
+            "explanation": "Fix any of the following:\n  Required ARIA children role not present: group, option"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "critical",
+        "tags": [
+          "cat.aria",
+          "wcag2a",
+          "wcag131"
+        ]
+      }
+    },
+    "errorCount": 1
+  },
+  {
+    "id": "heading-order",
+    "title": "Heading elements are not in a sequentially-descending order",
+    "description": "Properly ordered headings that do not skip levels convey the semantic structure of the page, making it easier to navigate and understand when using assistive technologies. [Learn more](https://web.dev/heading-order/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "19-168-H4",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,4,DIV,0,DIV,1,DIV,1,DIV,1,DIV,0,SECTION,2,DIV,0,DIV,1,H4",
+            "selector": "section#block-system-main > div.nwidget > div.col-sm-8 > h4",
+            "boundingRect": {
+              "top": 509,
+              "bottom": 528,
+              "left": 255,
+              "right": 955,
+              "width": 700,
+              "height": 20
+            },
+            "snippet": "<h4>",
+            "nodeLabel": "The Need for Space",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "moderate",
+        "tags": [
+          "cat.semantics",
+          "best-practice"
+        ]
+      }
+    },
+    "errorCount": 1
+  },
+  {
+    "id": "tabindex",
+    "title": "Some elements have a `[tabindex]` value greater than 0",
+    "description": "A value greater than 0 implies an explicit navigation ordering. Although technically valid, this often creates frustrating experiences for users who rely on assistive technologies. [Learn more](https://web.dev/tabindex/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "19-38-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,4,DIV,0,DIV,1,DIV,1,DIV,1,DIV,0,SECTION,2,DIV,1,DIV,4,DIV,6,DIV,1,DIV,0,DIV,0,DIV,3,A",
+            "selector": "div.dynamic-widget > div#blockslideshow_650321885166118 > div#slideshow_650321885166118 > a.left",
+            "boundingRect": {
+              "top": 3279,
+              "bottom": 3501,
+              "left": 986,
+              "right": 1009,
+              "width": 23,
+              "height": 222
+            },
+            "snippet": "<a class=\"left carousel-control\" data-slide=\"prev\" href=\"#slideshow_650321885166118\" role=\"button\" tabindex=\"1\">",
+            "nodeLabel": "Previous",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "19-39-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,4,DIV,0,DIV,1,DIV,1,DIV,1,DIV,0,SECTION,2,DIV,1,DIV,4,DIV,6,DIV,1,DIV,0,DIV,0,DIV,4,A",
+            "selector": "div.dynamic-widget > div#blockslideshow_650321885166118 > div#slideshow_650321885166118 > a.right",
+            "boundingRect": {
+              "top": 3279,
+              "bottom": 3501,
+              "left": 1296,
+              "right": 1319,
+              "width": 23,
+              "height": 222
+            },
+            "snippet": "<a class=\"right carousel-control\" data-slide=\"next\" href=\"#slideshow_650321885166118\" role=\"button\" tabindex=\"2\">",
+            "nodeLabel": "Next",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.keyboard",
+          "best-practice"
+        ]
+      }
+    },
+    "errorCount": 2
+  }
+]

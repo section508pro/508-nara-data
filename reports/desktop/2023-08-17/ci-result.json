@@ -1,0 +1,1578 @@
+[
+  {
+    "path": "/",
+    "score": 0.91,
+    "performance": 0.93,
+    "accessibility": 1,
+    "best-practices": 0.92,
+    "seo": 0.8
+  },
+  {
+    "path": "/about",
+    "score": 0.9,
+    "performance": 0.94,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.83
+  },
+  {
+    "path": "/about/archivist/archivist-biography-ferriero.html",
+    "score": 0.93,
+    "performance": 0.96,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.92
+  },
+  {
+    "path": "/about/archivist/speeches/carlin",
+    "score": 0.89,
+    "performance": 0.87,
+    "accessibility": 1,
+    "best-practices": 0.75,
+    "seo": 0.92
+  },
+  {
+    "path": "/about/committees/founding-fathers/about/background.html",
+    "score": 0.91,
+    "performance": 0.9,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.91
+  },
+  {
+    "path": "/about/history",
+    "score": 0.93,
+    "performance": 0.98,
+    "accessibility": 0.98,
+    "best-practices": 0.83,
+    "seo": 0.92
+  },
+  {
+    "path": "/about/history/about/history/history-and-mission",
+    "score": 0.91,
+    "performance": 0.92,
+    "accessibility": 0.98,
+    "best-practices": 0.83,
+    "seo": 0.92
+  },
+  {
+    "path": "/about/history/archivists/bahmer.html",
+    "score": 0.94,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.92
+  },
+  {
+    "path": "/about/history/archivists/carlin",
+    "score": 0.93,
+    "performance": 0.95,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.92
+  },
+  {
+    "path": "/about/history/archivists/ferriero",
+    "score": 0.91,
+    "performance": 0.89,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.92
+  },
+  {
+    "path": "/about/history/archivists/grover.html",
+    "score": 0.91,
+    "performance": 0.91,
+    "accessibility": 0.98,
+    "best-practices": 0.83,
+    "seo": 0.92
+  },
+  {
+    "path": "/about/history/archivists/rhoads.html",
+    "score": 0.93,
+    "performance": 0.96,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.92
+  },
+  {
+    "path": "/about/history/archivists/speeches.html",
+    "score": 0.9,
+    "performance": 0.92,
+    "accessibility": 1,
+    "best-practices": 0.75,
+    "seo": 0.92
+  },
+  {
+    "path": "/about/history/archivists/warner",
+    "score": 0.91,
+    "performance": 0.9,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.92
+  },
+  {
+    "path": "/about/history/archivists/wilson",
+    "score": 0.89,
+    "performance": 0.82,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.92
+  },
+  {
+    "path": "/about/history/building.html",
+    "score": 0.92,
+    "performance": 0.95,
+    "accessibility": 0.98,
+    "best-practices": 0.83,
+    "seo": 0.92
+  },
+  {
+    "path": "/about/history/college-park",
+    "score": 0.79,
+    "performance": 0.63,
+    "accessibility": 0.86,
+    "best-practices": 0.75,
+    "seo": 0.92
+  },
+  {
+    "path": "/about/history/exhibits.html",
+    "score": 0.89,
+    "performance": 0.92,
+    "accessibility": 0.97,
+    "best-practices": 0.83,
+    "seo": 0.83
+  },
+  {
+    "path": "/about/history/milestones.html",
+    "score": 0.93,
+    "performance": 0.99,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.91
+  },
+  {
+    "path": "/about/history/national-archives-through-the-decades-timeline",
+    "score": 0.78,
+    "performance": 0.42,
+    "accessibility": 0.95,
+    "best-practices": 0.83,
+    "seo": 0.92
+  },
+  {
+    "path": "/about/history/nprc-oral-histories",
+    "score": 0.84,
+    "performance": 0.69,
+    "accessibility": 1,
+    "best-practices": 0.75,
+    "seo": 0.92
+  },
+  {
+    "path": "/about/history/soviet",
+    "score": 0.93,
+    "performance": 0.97,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.92
+  },
+  {
+    "path": "/about/history/timeline.html",
+    "score": 0.83,
+    "performance": 0.6,
+    "accessibility": 0.95,
+    "best-practices": 0.83,
+    "seo": 0.92
+  },
+  {
+    "path": "/about/info-qual",
+    "score": 0.93,
+    "performance": 0.99,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.91
+  },
+  {
+    "path": "/about/info-qual/guidelines.html",
+    "score": 0.93,
+    "performance": 0.98,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.91
+  },
+  {
+    "path": "/about/info-qual/peer-review.html",
+    "score": 0.94,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.91
+  },
+  {
+    "path": "/about/info-qual/requests",
+    "score": 0.91,
+    "performance": 0.88,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.91
+  },
+  {
+    "path": "/about/info-qual/requests/fy2003.html",
+    "score": 0.93,
+    "performance": 0.99,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.91
+  },
+  {
+    "path": "/about/info-qual/requests/fy2004.html",
+    "score": 0.93,
+    "performance": 0.98,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.91
+  },
+  {
+    "path": "/about/info-qual/significant-guidance.html",
+    "score": 0.93,
+    "performance": 0.99,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.91
+  },
+  {
+    "path": "/about/info/mission",
+    "score": 0.92,
+    "performance": 0.95,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.91
+  },
+  {
+    "path": "/about/info/national-archives-by-the-numbers",
+    "score": 0.93,
+    "performance": 0.98,
+    "accessibility": 0.98,
+    "best-practices": 0.83,
+    "seo": 0.92
+  },
+  {
+    "path": "/about/info/whats-a-conservator.html",
+    "score": 0.92,
+    "performance": 0.95,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.91
+  },
+  {
+    "path": "/about/info/whats-a-record.html",
+    "score": 0.93,
+    "performance": 0.99,
+    "accessibility": 0.98,
+    "best-practices": 0.83,
+    "seo": 0.91
+  },
+  {
+    "path": "/about/info/whats-an-archives.html",
+    "score": 0.93,
+    "performance": 0.99,
+    "accessibility": 0.98,
+    "best-practices": 0.83,
+    "seo": 0.91
+  },
+  {
+    "path": "/about/info/whats-an-archivist.html",
+    "score": 0.89,
+    "performance": 1,
+    "accessibility": 0.89,
+    "best-practices": 0.83,
+    "seo": 0.83
+  },
+  {
+    "path": "/about/laws",
+    "score": 0.93,
+    "performance": 0.98,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.91
+  },
+  {
+    "path": "/about/laws/acts-and-resolutions.html",
+    "score": 0.94,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.91
+  },
+  {
+    "path": "/about/laws/appendix/12600.html",
+    "score": 0.91,
+    "performance": 0.91,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.91
+  },
+  {
+    "path": "/about/laws/appendix/12667.html",
+    "score": 0.9,
+    "performance": 0.86,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.91
+  },
+  {
+    "path": "/about/laws/appendix/12829.html",
+    "score": 0.93,
+    "performance": 0.96,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.91
+  },
+  {
+    "path": "/about/laws/appendix/12937.html",
+    "score": 0.91,
+    "performance": 0.89,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.91
+  },
+  {
+    "path": "/about/laws/appendix/12958.html",
+    "score": 0.92,
+    "performance": 0.94,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.91
+  },
+  {
+    "path": "/about/laws/appendix/13233.html",
+    "score": 0.93,
+    "performance": 0.98,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.91
+  },
+  {
+    "path": "/about/laws/appendix/13489.html",
+    "score": 0.91,
+    "performance": 0.9,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.91
+  },
+  {
+    "path": "/about/laws/appendix/13526.html",
+    "score": 0.91,
+    "performance": 0.9,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.91
+  },
+  {
+    "path": "/about/laws/atomic-defense.html",
+    "score": 0.93,
+    "performance": 0.96,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.91
+  },
+  {
+    "path": "/about/laws/congressional-printing.html",
+    "score": 0.94,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.91
+  },
+  {
+    "path": "/about/laws/legislative-history.html",
+    "score": 0.93,
+    "performance": 0.96,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.91
+  },
+  {
+    "path": "/about/laws/nhprc",
+    "score": 0.94,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.91
+  },
+  {
+    "path": "/about/laws/non-nara-statutes.html",
+    "score": 0.92,
+    "performance": 0.95,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.91
+  },
+  {
+    "path": "/about/laws/presidential-elections.html",
+    "score": 0.94,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.91
+  },
+  {
+    "path": "/about/laws/privacy-act-1974.html",
+    "score": 0.93,
+    "performance": 0.97,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.91
+  },
+  {
+    "path": "/about/organization/chief-financial-officer",
+    "score": 0.94,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.92
+  },
+  {
+    "path": "/about/organization/fax-list.html",
+    "score": 0.9,
+    "performance": 0.96,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.82
+  },
+  {
+    "path": "/about/organization/org-fax-list",
+    "score": 0.91,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.82
+  },
+  {
+    "path": "/about/organization/senior-staff",
+    "score": 0.92,
+    "performance": 0.94,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.92
+  },
+  {
+    "path": "/about/organization/senior-staff/chief-cx-officer",
+    "score": 0.91,
+    "performance": 0.9,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.92
+  },
+  {
+    "path": "/about/organization/senior-staff/chief-information-officer",
+    "score": 0.94,
+    "performance": 0.99,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.92
+  },
+  {
+    "path": "/about/organization/senior-staff/chief-management-administration",
+    "score": 0.94,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.92
+  },
+  {
+    "path": "/about/organization/senior-staff/director-congressional-affairs",
+    "score": 0.94,
+    "performance": 0.99,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.92
+  },
+  {
+    "path": "/about/organization/senior-staff/director-eeo",
+    "score": 0.94,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.92
+  },
+  {
+    "path": "/about/organization/senior-staff/director-preservation",
+    "score": 0.93,
+    "performance": 0.96,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.92
+  },
+  {
+    "path": "/about/organization/senior-staff/executive-business-support-services",
+    "score": 0.94,
+    "performance": 0.99,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.92
+  },
+  {
+    "path": "/about/organization/senior-staff/external-affairs-liaison",
+    "score": 0.92,
+    "performance": 0.93,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.92
+  },
+  {
+    "path": "/about/organization/telephone-list.html",
+    "score": 0.93,
+    "performance": 0.99,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.91
+  },
+  {
+    "path": "/about/plans-reports",
+    "score": 0.9,
+    "performance": 0.97,
+    "accessibility": 0.97,
+    "best-practices": 0.75,
+    "seo": 0.92
+  },
+  {
+    "path": "/about/plans-reports/agency-financial-reports",
+    "score": 0.94,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.91
+  },
+  {
+    "path": "/about/plans-reports/employee-survey/fhcs-results-2004.html",
+    "score": 0.93,
+    "performance": 0.98,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.91
+  },
+  {
+    "path": "/about/plans-reports/employee-survey/fhcs-results-2006.html",
+    "score": 0.94,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.91
+  },
+  {
+    "path": "/about/plans-reports/environmental-assessment",
+    "score": 0.93,
+    "performance": 0.98,
+    "accessibility": 0.98,
+    "best-practices": 0.83,
+    "seo": 0.92
+  },
+  {
+    "path": "/about/plans-reports/executive-performance",
+    "score": 0.94,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.91
+  },
+  {
+    "path": "/about/plans-reports/fair-act",
+    "score": 0.93,
+    "performance": 0.97,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.91
+  },
+  {
+    "path": "/about/plans-reports/fair-act/oig.html",
+    "score": 0.94,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.91
+  },
+  {
+    "path": "/about/plans-reports/other",
+    "score": 0.93,
+    "performance": 0.97,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.91
+  },
+  {
+    "path": "/about/plans-reports/other/buy-american.html",
+    "score": 0.94,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.91
+  },
+  {
+    "path": "/about/plans-reports/other/piv-credentials-report.html",
+    "score": 0.93,
+    "performance": 0.99,
+    "accessibility": 0.98,
+    "best-practices": 0.83,
+    "seo": 0.91
+  },
+  {
+    "path": "/about/plans-reports/performance-accountability/1999",
+    "score": 0.93,
+    "performance": 1,
+    "accessibility": 0.95,
+    "best-practices": 0.83,
+    "seo": 0.92
+  },
+  {
+    "path": "/about/plans-reports/performance-accountability/2002",
+    "score": 0.88,
+    "performance": 0.99,
+    "accessibility": 0.87,
+    "best-practices": 0.83,
+    "seo": 0.83
+  },
+  {
+    "path": "/about/plans-reports/performance-accountability/2004",
+    "score": 0.93,
+    "performance": 1,
+    "accessibility": 0.98,
+    "best-practices": 0.83,
+    "seo": 0.92
+  },
+  {
+    "path": "/about/plans-reports/performance-accountability/2005",
+    "score": 0.91,
+    "performance": 0.91,
+    "accessibility": 0.98,
+    "best-practices": 0.83,
+    "seo": 0.92
+  },
+  {
+    "path": "/about/plans-reports/performance-accountability/2006",
+    "score": 0.93,
+    "performance": 0.99,
+    "accessibility": 0.98,
+    "best-practices": 0.83,
+    "seo": 0.92
+  },
+  {
+    "path": "/about/plans-reports/performance-accountability/2008",
+    "score": 0.91,
+    "performance": 0.9,
+    "accessibility": 0.98,
+    "best-practices": 0.83,
+    "seo": 0.92
+  },
+  {
+    "path": "/about/plans-reports/performance-accountability/2011",
+    "score": 0.93,
+    "performance": 0.98,
+    "accessibility": 0.98,
+    "best-practices": 0.83,
+    "seo": 0.92
+  },
+  {
+    "path": "/about/plans-reports/performance-accountability/2013",
+    "score": 0.92,
+    "performance": 0.95,
+    "accessibility": 0.98,
+    "best-practices": 0.83,
+    "seo": 0.92
+  },
+  {
+    "path": "/about/plans-reports/performance-accountability/annual/1998/1998-annual-report.html",
+    "score": 0.92,
+    "performance": 0.96,
+    "accessibility": 0.98,
+    "best-practices": 0.83,
+    "seo": 0.91
+  },
+  {
+    "path": "/about/plans-reports/performance-accountability/annual/1999/1999-annual-report.html",
+    "score": 0.93,
+    "performance": 0.98,
+    "accessibility": 0.98,
+    "best-practices": 0.83,
+    "seo": 0.91
+  },
+  {
+    "path": "/about/plans-reports/performance-accountability/annual/2000/2000-annual-report.html",
+    "score": 0.93,
+    "performance": 0.98,
+    "accessibility": 0.98,
+    "best-practices": 0.83,
+    "seo": 0.92
+  },
+  {
+    "path": "/about/plans-reports/performance-accountability/annual/2001/2001-annual-report.html",
+    "score": 0.94,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.91
+  },
+  {
+    "path": "/about/plans-reports/performance-accountability/annual/2002/2002-annual-report.html",
+    "score": 0.93,
+    "performance": 0.98,
+    "accessibility": 0.98,
+    "best-practices": 0.83,
+    "seo": 0.91
+  },
+  {
+    "path": "/about/plans-reports/performance-accountability/annual/2003/2003-annual-report.html",
+    "score": 0.93,
+    "performance": 0.98,
+    "accessibility": 0.98,
+    "best-practices": 0.83,
+    "seo": 0.91
+  },
+  {
+    "path": "/about/plans-reports/performance-accountability/performance/1999",
+    "score": 0.93,
+    "performance": 1,
+    "accessibility": 0.95,
+    "best-practices": 0.83,
+    "seo": 0.92
+  },
+  {
+    "path": "/about/plans-reports/performance-accountability/performance/2000",
+    "score": 0.91,
+    "performance": 0.87,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.92
+  },
+  {
+    "path": "/about/plans-reports/performance-accountability/performance/2001",
+    "score": 0.88,
+    "performance": 1,
+    "accessibility": 0.87,
+    "best-practices": 0.83,
+    "seo": 0.83
+  },
+  {
+    "path": "/about/plans-reports/performance-accountability/performance/2002",
+    "score": 0.86,
+    "performance": 0.89,
+    "accessibility": 0.87,
+    "best-practices": 0.83,
+    "seo": 0.83
+  },
+  {
+    "path": "/about/plans-reports/performance-accountability/performance/2003",
+    "score": 0.91,
+    "performance": 0.92,
+    "accessibility": 0.97,
+    "best-practices": 0.83,
+    "seo": 0.92
+  },
+  {
+    "path": "/about/plans-reports/performance-budget",
+    "score": 0.94,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.91
+  },
+  {
+    "path": "/about/plans-reports/performance-plan/2000",
+    "score": 0.92,
+    "performance": 0.98,
+    "accessibility": 0.97,
+    "best-practices": 0.83,
+    "seo": 0.91
+  },
+  {
+    "path": "/about/plans-reports/performance-plan/2002",
+    "score": 0.92,
+    "performance": 0.94,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.91
+  },
+  {
+    "path": "/about/plans-reports/performance-plan/2004",
+    "score": 0.83,
+    "performance": 0.77,
+    "accessibility": 0.9,
+    "best-practices": 0.83,
+    "seo": 0.83
+  },
+  {
+    "path": "/about/plans-reports/performance-plan/2008",
+    "score": 0.94,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.92
+  },
+  {
+    "path": "/about/plans-reports/performance-plan/2009",
+    "score": 0.92,
+    "performance": 0.95,
+    "accessibility": 0.97,
+    "best-practices": 0.83,
+    "seo": 0.92
+  },
+  {
+    "path": "/about/plans-reports/performance-plan/2013",
+    "score": 0.9,
+    "performance": 0.96,
+    "accessibility": 0.97,
+    "best-practices": 0.75,
+    "seo": 0.92
+  },
+  {
+    "path": "/about/plans-reports/performance-plan/2014",
+    "score": 0.91,
+    "performance": 1,
+    "accessibility": 0.97,
+    "best-practices": 0.75,
+    "seo": 0.92
+  },
+  {
+    "path": "/about/plans-reports/performance-plan/2015",
+    "score": 0.91,
+    "performance": 0.98,
+    "accessibility": 0.97,
+    "best-practices": 0.75,
+    "seo": 0.92
+  },
+  {
+    "path": "/about/plans-reports/strategic-plan/2000",
+    "score": 0.93,
+    "performance": 0.99,
+    "accessibility": 0.97,
+    "best-practices": 0.83,
+    "seo": 0.92
+  },
+  {
+    "path": "/about/plans-reports/strategic-plan/2003",
+    "score": 0.94,
+    "performance": 0.99,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.92
+  },
+  {
+    "path": "/about/plans-reports/strategic-plan/diversity-inclusion",
+    "score": 0.91,
+    "performance": 0.93,
+    "accessibility": 0.95,
+    "best-practices": 0.83,
+    "seo": 0.92
+  },
+  {
+    "path": "/about/plans-reports/strategic-plan/draft-2022-2026-strategic-plan",
+    "score": 0.93,
+    "performance": 1,
+    "accessibility": 0.97,
+    "best-practices": 0.83,
+    "seo": 0.91
+  },
+  {
+    "path": "/about/plans-reports/strategic-plan/strategic-diversity",
+    "score": 0.93,
+    "performance": 1,
+    "accessibility": 0.98,
+    "best-practices": 0.83,
+    "seo": 0.91
+  },
+  {
+    "path": "/about/plans-reports/strategic-plan/strategic-plan-2022-2026",
+    "score": 0.94,
+    "performance": 0.99,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.92
+  },
+  {
+    "path": "/about/plans-reports/withdrawn",
+    "score": 0.94,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.91
+  },
+  {
+    "path": "/about/records-schedule",
+    "score": 0.92,
+    "performance": 0.97,
+    "accessibility": 0.98,
+    "best-practices": 0.83,
+    "seo": 0.91
+  },
+  {
+    "path": "/about/records-schedule/chapter-01.html",
+    "score": 0.91,
+    "performance": 0.99,
+    "accessibility": 0.89,
+    "best-practices": 0.83,
+    "seo": 0.91
+  },
+  {
+    "path": "/about/regulations",
+    "score": 0.94,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.91
+  },
+  {
+    "path": "/about/regulations/comments.html",
+    "score": 0.94,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.91
+  },
+  {
+    "path": "/about/regulations/faqs.html",
+    "score": 0.94,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.91
+  },
+  {
+    "path": "/about/regulations/process.html",
+    "score": 0.94,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.92
+  },
+  {
+    "path": "/about/regulations/regulations.html",
+    "score": 0.94,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.91
+  },
+  {
+    "path": "/about/regulations/resources.html",
+    "score": 0.94,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.91
+  },
+  {
+    "path": "/about/speeches",
+    "score": 0.94,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.92
+  },
+  {
+    "path": "/about/speeches/04-1-98.html",
+    "score": 0.94,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.91
+  },
+  {
+    "path": "/about/speeches/06-15-99.html",
+    "score": 0.94,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.91
+  },
+  {
+    "path": "/about/speeches/07-9-98.html",
+    "score": 0.94,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.91
+  },
+  {
+    "path": "/about/speeches/08-26-99.html",
+    "score": 0.94,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.91
+  },
+  {
+    "path": "/about/speeches/11-19-98.html",
+    "score": 0.94,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.91
+  },
+  {
+    "path": "/about/speeches/12-3-02.html",
+    "score": 0.94,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.91
+  },
+  {
+    "path": "/about/speeches/2005/07-04-05.html",
+    "score": 0.93,
+    "performance": 0.99,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.91
+  },
+  {
+    "path": "/about/speeches/2005/07-07-05.html",
+    "score": 0.94,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.91
+  },
+  {
+    "path": "/about/speeches/2005/07-11-05.html",
+    "score": 0.94,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.91
+  },
+  {
+    "path": "/about/speeches/2005/09-08-05.html",
+    "score": 0.94,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.91
+  },
+  {
+    "path": "/about/speeches/2005/09-13-05.html",
+    "score": 0.94,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.91
+  },
+  {
+    "path": "/about/speeches/2005/09-15-05.html",
+    "score": 0.94,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.91
+  },
+  {
+    "path": "/about/speeches/2005/10-27-05.html",
+    "score": 0.94,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.91
+  },
+  {
+    "path": "/about/speeches/2005/12-01-05.html",
+    "score": 0.93,
+    "performance": 0.97,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.91
+  },
+  {
+    "path": "/about/speeches/2006/03-02-06.html",
+    "score": 0.94,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.91
+  },
+  {
+    "path": "/about/speeches/2006/03-14-06.html",
+    "score": 0.93,
+    "performance": 1,
+    "accessibility": 0.98,
+    "best-practices": 0.83,
+    "seo": 0.91
+  },
+  {
+    "path": "/about/speeches/2006/04-21-06.html",
+    "score": 0.94,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.91
+  },
+  {
+    "path": "/about/speeches/2006/05-09-06.html",
+    "score": 0.94,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.91
+  },
+  {
+    "path": "/about/speeches/2006/08-03-06.html",
+    "score": 0.93,
+    "performance": 1,
+    "accessibility": 0.98,
+    "best-practices": 0.83,
+    "seo": 0.91
+  },
+  {
+    "path": "/about/speeches/2006/08-04-06.html",
+    "score": 0.93,
+    "performance": 1,
+    "accessibility": 0.98,
+    "best-practices": 0.83,
+    "seo": 0.91
+  },
+  {
+    "path": "/about/speeches/2006/08-05b-06.html",
+    "score": 0.93,
+    "performance": 1,
+    "accessibility": 0.98,
+    "best-practices": 0.83,
+    "seo": 0.91
+  },
+  {
+    "path": "/about/speeches/2006/eyewitness.html",
+    "score": 0.93,
+    "performance": 0.99,
+    "accessibility": 0.98,
+    "best-practices": 0.83,
+    "seo": 0.91
+  },
+  {
+    "path": "/about/speeches/2007/03-16-07.html",
+    "score": 0.94,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.91
+  },
+  {
+    "path": "/about/speeches/2007/04-17-07.html",
+    "score": 0.94,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.91
+  },
+  {
+    "path": "/about/speeches/2007/05-8-07.html",
+    "score": 0.93,
+    "performance": 0.99,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.91
+  },
+  {
+    "path": "/about/speeches/2007/06-27-07.html",
+    "score": 0.94,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.91
+  },
+  {
+    "path": "/about/speeches/2007/07-18-07.html",
+    "score": 0.94,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.91
+  },
+  {
+    "path": "/about/speeches/2007/07-4-07.html",
+    "score": 0.94,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.91
+  },
+  {
+    "path": "/about/speeches/2007/09-1-07.html",
+    "score": 0.94,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.91
+  },
+  {
+    "path": "/about/speeches/2007/10-4-07.html",
+    "score": 0.94,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.91
+  },
+  {
+    "path": "/about/speeches/2008/april2-2008.html",
+    "score": 0.94,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.91
+  },
+  {
+    "path": "/about/speeches/2008/aug30-2008.html",
+    "score": 0.94,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.91
+  },
+  {
+    "path": "/about/speeches/2008/dec19-2008.html",
+    "score": 0.9,
+    "performance": 0.86,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.91
+  },
+  {
+    "path": "/about/speeches/2008/dec4-2008.html",
+    "score": 0.94,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.91
+  },
+  {
+    "path": "/about/speeches/2008/feb12-2008.html",
+    "score": 0.94,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.91
+  },
+  {
+    "path": "/about/speeches/2008/jan15-2008.html",
+    "score": 0.92,
+    "performance": 0.93,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.91
+  },
+  {
+    "path": "/about/speeches/2008/july4-2008.html",
+    "score": 0.93,
+    "performance": 0.99,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.91
+  },
+  {
+    "path": "/about/speeches/2008/may17-2008.html",
+    "score": 0.93,
+    "performance": 0.98,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.91
+  },
+  {
+    "path": "/about/speeches/2009/august13-2009.html",
+    "score": 0.94,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.91
+  },
+  {
+    "path": "/about/speeches/2010/10-21-2010.html",
+    "score": 0.92,
+    "performance": 0.93,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.92
+  },
+  {
+    "path": "/about/speeches/2010/10-27-2010.html",
+    "score": 0.94,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.92
+  },
+  {
+    "path": "/about/speeches/2010/10-29-2010.html",
+    "score": 0.93,
+    "performance": 0.98,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.92
+  },
+  {
+    "path": "/about/speeches/2010/11-16-2010.html",
+    "score": 0.94,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.92
+  },
+  {
+    "path": "/about/speeches/2010/4-20-2010.html",
+    "score": 0.94,
+    "performance": 0.99,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.92
+  },
+  {
+    "path": "/about/speeches/2010/6-2-2010.html",
+    "score": 0.94,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.92
+  },
+  {
+    "path": "/about/speeches/2010/7-26-2010.html",
+    "score": 0.94,
+    "performance": 0.99,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.92
+  },
+  {
+    "path": "/about/speeches/2010/9-28-2010.html",
+    "score": 0.94,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.92
+  },
+  {
+    "path": "/about/speeches/2011/10-17-2011.html",
+    "score": 0.93,
+    "performance": 0.97,
+    "accessibility": 0.98,
+    "best-practices": 0.83,
+    "seo": 0.92
+  },
+  {
+    "path": "/about/speeches/2011/12-8-2011.html",
+    "score": 0.93,
+    "performance": 1,
+    "accessibility": 0.98,
+    "best-practices": 0.83,
+    "seo": 0.92
+  },
+  {
+    "path": "/about/speeches/2011/2-10-2011.html",
+    "score": 0.93,
+    "performance": 0.99,
+    "accessibility": 0.98,
+    "best-practices": 0.83,
+    "seo": 0.92
+  },
+  {
+    "path": "/about/speeches/2011/3-28-2011.html",
+    "score": 0.93,
+    "performance": 0.99,
+    "accessibility": 0.98,
+    "best-practices": 0.83,
+    "seo": 0.92
+  },
+  {
+    "path": "/about/speeches/2011/5-13-2011.html",
+    "score": 0.93,
+    "performance": 0.97,
+    "accessibility": 0.98,
+    "best-practices": 0.83,
+    "seo": 0.92
+  },
+  {
+    "path": "/about/speeches/2011/5-17-2011.html",
+    "score": 0.93,
+    "performance": 1,
+    "accessibility": 0.98,
+    "best-practices": 0.83,
+    "seo": 0.92
+  },
+  {
+    "path": "/about/speeches/2011/7-9-2011.html",
+    "score": 0.93,
+    "performance": 1,
+    "accessibility": 0.98,
+    "best-practices": 0.83,
+    "seo": 0.92
+  },
+  {
+    "path": "/about/speeches/2011/8-26-2011.html",
+    "score": 0.92,
+    "performance": 0.96,
+    "accessibility": 0.98,
+    "best-practices": 0.83,
+    "seo": 0.92
+  },
+  {
+    "path": "/about/speeches/2012/1-18-2012.html",
+    "score": 0.92,
+    "performance": 0.93,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.92
+  },
+  {
+    "path": "/about/speeches/2012/10-22-2012.html",
+    "score": 0.93,
+    "performance": 1,
+    "accessibility": 0.98,
+    "best-practices": 0.83,
+    "seo": 0.92
+  },
+  {
+    "path": "/about/speeches/2012/11-20-2012.html",
+    "score": 0.92,
+    "performance": 0.96,
+    "accessibility": 0.98,
+    "best-practices": 0.83,
+    "seo": 0.92
+  },
+  {
+    "path": "/about/speeches/2012/7-14-2012.html",
+    "score": 0.93,
+    "performance": 0.99,
+    "accessibility": 0.98,
+    "best-practices": 0.83,
+    "seo": 0.92
+  },
+  {
+    "path": "/about/speeches/2012/7-4-2012.html",
+    "score": 0.93,
+    "performance": 0.97,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.92
+  },
+  {
+    "path": "/about/speeches/2012/8-21-2012.html",
+    "score": 0.93,
+    "performance": 0.98,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.92
+  },
+  {
+    "path": "/about/speeches/2012/9-5-2012.html",
+    "score": 0.93,
+    "performance": 0.97,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.92
+  },
+  {
+    "path": "/about/speeches/2013/10-23-2013.html",
+    "score": 0.92,
+    "performance": 0.92,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.92
+  },
+  {
+    "path": "/about/speeches/2013/11-6-2013.html",
+    "score": 0.93,
+    "performance": 0.96,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.92
+  },
+  {
+    "path": "/about/speeches/2013/12-11-2013.html",
+    "score": 0.93,
+    "performance": 0.96,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.92
+  },
+  {
+    "path": "/about/speeches/2013/12-4-2013.html",
+    "score": 0.85,
+    "performance": 0.73,
+    "accessibility": 0.98,
+    "best-practices": 0.75,
+    "seo": 0.92
+  },
+  {
+    "path": "/about/speeches/2013/3-13-2013.html",
+    "score": 0.92,
+    "performance": 0.94,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.92
+  },
+  {
+    "path": "/about/speeches/2013/7-4-2013.html",
+    "score": 0.94,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.91
+  },
+  {
+    "path": "/about/speeches/2013/9-17-2013.html",
+    "score": 0.93,
+    "performance": 1,
+    "accessibility": 0.98,
+    "best-practices": 0.83,
+    "seo": 0.92
+  },
+  {
+    "path": "/about/speeches/2013/9-26-2013.html",
+    "score": 0.93,
+    "performance": 0.97,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.92
+  },
+  {
+    "path": "/about/speeches/2014/1-14-2014.html",
+    "score": 0.94,
+    "performance": 0.99,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.92
+  },
+  {
+    "path": "/about/speeches/2014/10-27-2014.html",
+    "score": 0.94,
+    "performance": 0.99,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.92
+  },
+  {
+    "path": "/about/speeches/2014/11-6-2014.html",
+    "score": 0.94,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.92
+  },
+  {
+    "path": "/about/speeches/2014/12-11-2014.html",
+    "score": 0.93,
+    "performance": 0.98,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.92
+  },
+  {
+    "path": "/about/speeches/2014/4-8-2014.html",
+    "score": 0.93,
+    "performance": 0.97,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.92
+  },
+  {
+    "path": "/about/speeches/2014/5-7-2014.html",
+    "score": 0.94,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.92
+  }
+]
